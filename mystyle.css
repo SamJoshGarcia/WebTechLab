@@ -1,0 +1,120 @@
+header{
+	background: #beea37;
+	text-align: center;
+	width: 90%;
+	height: 60px;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+body{
+	background: white;
+	height: 100%;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown-button{
+	background-color: blue;
+    color: white;
+	padding: 21px;
+    font-size: 16px;
+	border: none;
+    margin: 0 0 0 0;
+	cursor: pointer;
+}
+
+.dropdown-content{
+	display: none;
+    position: absolute;
+    background-color: #1BE1E1;
+    min-width: 169px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+	color: red;
+	padding: 10px;
+	font-family: Chalkduster, fantasy;
+	text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+	background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropdown-button{
+    background-color: blue;
+}
+
+.middle{
+	margin-top: 4%;
+	margin-left: 5%;
+	width: 90%;
+	color: white;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-color: black;
+	text-align: center;
+}
+
+.news{
+	margin: 5% 0px 5%;
+	border: none;
+	padding: 5% 0% 40%;
+}
+
+.left{
+	border: 2px solid black;
+	width: 40%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+	background-color: purple;
+	color: black;
+	margin-left: 7%;
+	font-size: 100px;
+	float: left;
+}
+
+.right{
+	border: 2px solid black;
+	width: 40%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+	background-color: purple;
+	color: black;
+	font-size: 100px;
+	margin-right: 7%;
+	float: right;
+}
+
+footer{
+	margin: 5% 5% 5%;
+	width: 90%;
+	padding-bottom: 10px;
+}
+
+.first{
+	text-align: center;
+	padding: 10px 0 10px;
+	width: 100%;
+	border: 2px solid black;
+	margin: 0 0 0 0;
+}
+
+.second{
+	width: 100%;
+	border: 2px solid black;
+	margin: 0 0 0 0;
+	padding: 10% 0 10%;
+}

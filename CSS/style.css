@@ -1,4 +1,4 @@
-html, body, .container {
+html {
 }
 
 logo {
@@ -31,12 +31,12 @@ body {
 
 header {
     text-align: center;
-    padding: 15px 20px;
+    padding: 10px;
     background: #080000;
-    width: 55%;
+    width: 60%;
     height: 50%;
-    margin-left: 33%;
-    margin-right: 8%
+    margin-left: 35%;
+    margin-right: 3%;
 }
 
 a{
@@ -52,9 +52,9 @@ p {
 h1 {
   color: #FFF;
   text-transform: Uppercase;
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  font-weight: 500;
   margin-top: 20px;    
 }
 
@@ -74,7 +74,7 @@ button {
     background-color: #89EB4F;
     color: #FFF;
     padding: 15px 20px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
 }
 
@@ -91,6 +91,7 @@ button {
     color: #FFF;
     text-decoration: none;
     display: block;
+    font-size: 15px;
 }
 
 .dropdown-content a:hover {

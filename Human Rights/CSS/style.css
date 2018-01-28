@@ -4,7 +4,14 @@ html {
     width: auto;
 }
 
-.logo {
+#logo {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    width: auto;    
+  }
+
+img {
     max-width: 100%;
     height: auto;
     width: auto;    
@@ -13,7 +20,7 @@ html {
 
 .menu {
     display: block;
-    position: absolute;
+    position: relative;
     margin: auto;        
     text-align: center;
     float: right;
@@ -112,17 +119,13 @@ button {
 }
 
 .read {
+    position: relative;
     background-color:darkgoldenrod;
     color: #FFF;
-    padding: 15px 20px;
     font-size: 15px;
     cursor: pointer;
-    border: none;
     font-weight: bold;
-    display: block;
-    margin-left: auto;   
-    margin-right: auto;   
-    box-shadow: 5px 5px white; 
+    display: inline-block;
     -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
@@ -134,17 +137,15 @@ button {
 	filter: grayscale(0);
 }
 
-
 .middle {
-    max-width: 1280px;
+    display: block;
+    max-width: 1240px;
     position: relative;
     text-align: center;
     margin-top: 5%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: auto;
+    margin-right: auto;
     color: #FFF;
-    padding-top: 150px;
-    padding-bottom: 150px;
     background-color:black;
     transition: background 1s linear 0s, color 3s linear 0s;
     height: 100%; 
@@ -152,8 +153,9 @@ button {
     object-fit: contain;
 }
 
-.slide {
-    display: none;
+slide {
+    position: relative;
+    display: inline-block;
 }
 
 .prev, .next {
@@ -332,4 +334,60 @@ p {
 .submit:hover {
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
+}
+
+.team {
+    border: 2px solid #ccc;
+    text-align: center;
+    width: 35%;
+    height: 50%;
+}
+
+.team:hover {
+    border: 3px solid darkorange;
+}
+
+.team img {
+    width: auto;
+    height: auto;
+}
+
+.team p {
+    padding: 45px;
+}
+
+.events {
+    color: black;
+    border: 2px solid #ccc;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    padding: 40px;
+}
+
+.about {
+    color: black;
+    border: 2px solid #ccc;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    padding: 40px;
+}
+
+.faqs {
+    color: black;
+    border: 2px solid #ccc;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    padding: 40px;
 }

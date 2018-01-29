@@ -33,6 +33,12 @@ img {
   text-align: center;
 }
 
+.menu button {
+  display: block;
+  padding: 15px;
+  text-align: center;
+}
+
 body {
   max-width: 100%;
   height: auto;
@@ -58,6 +64,7 @@ header {
 a {
     margin: auto;
     text-align: center;
+    text-decoration: none;
 }
 
 h1 {
@@ -78,6 +85,7 @@ button {
 .dropdown {
     position: relative;
     display: inline-block;
+    text-decoration: none;
 }
 
 .dropdown-button {
@@ -391,3 +399,34 @@ p {
     height: 80%;
     padding: 40px;
 }
+
+.form {
+    text-align: center;
+    font-weight: bold;
+    color:darkgoldenrod;
+    display: block;
+    margin-top: 0em;
+}
+
+.stayinformed {
+    background-color:darkgoldenrod;
+    color: #FFF;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: auto;
+    box-shadow: 5px 5px white; 
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.stayinformed:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}   

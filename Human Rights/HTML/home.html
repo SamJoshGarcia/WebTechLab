@@ -55,13 +55,38 @@
 </header>
 
 <div class="middle">
-    <figurecaption>Title of News/Info</figurecaption>
-    <section class="slide"><img src="../Images/DSCF6304.jpg">
-    </section>
+    Title of News/Info
+	
+	<div id="slideofhumanity">
+	<img class="slide"	src="../Images/DSCF6304.jpg">
+	<img class="slide" src="../Images/DSCF6301.jpg">
+	<img class="slide" src="../Images/DSCF6329.jpg">
+	<img class="slide" src="../Images/DSCF6382.jpg">
     
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    
+    <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+    <button class="next" onclick="plusSlides(1)">&#10095;</button>
+	
+	</div>
+	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusSlides(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slide");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+  </script>
+	
     <button class="read">Read More</button>
 </div>
 

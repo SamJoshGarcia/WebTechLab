@@ -22,12 +22,14 @@ body{
 }
 
 .dropdown-button{
+	font-family: Helvetica;
 	background-color: blue;
     color: white;
 	padding: 21px;
     font-size: 16px;
 	border: none;
     margin: 0 0 0 0;
+    text-shadow: 1px 1px black;
 	cursor: pointer;
 }
 
@@ -41,9 +43,10 @@ body{
 }
 
 .dropdown-content a{
-	color: red;
+	color: white;
+	text-shadow: 1px 1px black;
 	padding: 10px;
-	font-family: Chalkduster, fantasy;
+	font-family: Helvetica;
 	text-decoration: none;
     display: block;
 }
@@ -110,6 +113,7 @@ footer{
 }
 
 .first{
+	font-family: Helvetica;
 	text-align: center;
 	padding: 10px 0 10px;
 	width: 100%;
@@ -122,4 +126,31 @@ footer{
 	border: 2px solid black;
 	margin: 0 0 0 0;
 	padding: 10% 0 10%;
+}
+
+.contain{
+	text-align: center;
+	margin-top: 5%;
+	font-size: 50px;
+	font-family: Helvetica;
+}
+
+#image .inblock{
+    display: inline-block;
+    height: 270px;
+    width: 270px;
+    border: 1.5px solid #dfe0dc;
+    margin: 10px 10px;
+    margin-top: 5%;
+    margin-left: 9.2%;
+    vertical-align: top;
+}
+
+.inblock-txt{
+	font-family: Helvetica;
+	font-weight: bold;
+    font-size: 15px;
+    margin-top: -50%;
+    margin-left: 50%;
+    text-align: center;
 }

@@ -6,9 +6,8 @@ html {
 
 #logo {
     margin: 0;
-    max-width: 100%;
     height: auto;
-    width: auto;    
+    width: auto; 
   }
 
 img {
@@ -35,12 +34,12 @@ img {
 
 .menu button {
   display: block;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
 }
 
 body {
-  max-width: 100%;
   height: auto;
   width: auto;  
   background-position: center center;
@@ -55,10 +54,11 @@ body {
 }
 
 header {
-    margin-left: 40%;
-    max-width: 100%;
     height: auto;
-    width: auto
+    width: auto;	
+	margin: auto;
+	overflow: hidden;
+	display: flow-root;
 }
 
 a {
@@ -91,7 +91,6 @@ button {
 .dropdown-button {
     background-color: #89EB4F;
     color: #FFF;
-    padding: 15px 20px;
     font-size: 15px;
     cursor: pointer;
     border: none;
@@ -104,6 +103,7 @@ button {
     position: absolute;
     background-color:cornflowerblue;
     min-width: 160px;
+	z-index: 3;
 }
 
 .dropdown-content a {
@@ -133,8 +133,7 @@ button {
     font-size: 15px;
     cursor: pointer;
     font-weight: bold;
-    display: inline-block;
-    -webkit-filter: grayscale(100%);
+    display: inline-block;	
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
@@ -147,23 +146,22 @@ button {
 
 .middle {
     display: block;
-    max-width: 1240px;
     position: relative;
     text-align: center;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
+	margin: 5%;
     color: #FFF;
-    background-color:black;
+    background-color: black;
+	-webkit-transition: background 1s linear 0s, color 3s linear 0s;
     transition: background 1s linear 0s, color 3s linear 0s;
-    height: 100%; 
+    height: auto; 
     width: 100%;
-    object-fit: contain;
 }
 
 slide {
     position: relative;
     display: inline-block;
+	max-width: 100%;
+	height: auto;
 }
 
 .prev, .next {
@@ -171,7 +169,6 @@ slide {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 15px;
   color: white;
   font-weight: bolder;

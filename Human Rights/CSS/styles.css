@@ -302,24 +302,41 @@ p {
     margin-right: auto;
 }
 
-.meet {
+.team {
+    margin: auto;
+    text-align: center;
+    margin-top: 8%;
+    color: black;
+}
+
+.team h1 {
     color: black;
     font-weight: bold;
 }
 
 .team {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    margin-top: 8%;
-    margin-bottom: 16px;
-    padding: 0 20px;
-    color: black;
-    margin-left: auto;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    border: 2px solid;
+}
+
+.team:hover {
+    border: 3px solid darkorange;
 }
 
 .image {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+}
+
+.image p {
+    padding: 35px;
+    margin: auto;
+}
+
+.image h2 {
+    text-align: center;
+    padding: 10px;
 }
 
 .submit {
@@ -342,26 +359,6 @@ p {
 .submit:hover {
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
-}
-
-.team {
-    border: 2px solid #ccc;
-    text-align: center;
-    width: 35%;
-    height: 50%;
-}
-
-.team:hover {
-    border: 3px solid darkorange;
-}
-
-.team img {
-    width: auto;
-    height: auto;
-}
-
-.team p {
-    padding: 45px;
 }
 
 .events {
@@ -401,11 +398,17 @@ p {
 }
 
 .form {
-    text-align: center;
     font-weight: bold;
     color:darkgoldenrod;
-    display: block;
-    margin-top: 0em;
+    display: inline;
+    margin-left: auto;
+    width: 50px;
+}
+
+.form p {
+    display: inline-block;
+    margin: auto;
+    font-size: 10px;
 }
 
 .stayinformed {
@@ -429,4 +432,44 @@ p {
 .stayinformed:hover {
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
-}   
+}
+
+.social {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social img {
+    width: 45px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+    margin: auto;
+}
+
+.socialfa:hover {
+    opacity: 0.5;
+}
+
+.socialtw:hover {
+    opacity: 0.5;
+}
+
+.socialyo:hover {
+    opacity: 0.5;
+}
+
+.socialfa {
+    background: #3B5998;
+}
+
+.socialtw {
+    background: #55ACEE;
+}
+
+.socialyo {
+    background: red;
+}

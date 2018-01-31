@@ -53,20 +53,22 @@
     </nav>
 </header>
 
-<div class="middle">
-    Title of News/Info
-	
-	<div id="slideofhumanity">
-	<img class="slide" src="../Images/DSCF6304.jpg">
+
+    <div id="slideofhumanity">
+	<h1><span>
+        Title of News/Info <br><br>
+    <button class="read">Read More</button>    
+        </span></h1>
+    <img class="slide" src="../Images/DSCF6304.jpg">
 	<img class="slide" src="../Images/DSCF6301.jpg">
 	<img class="slide" src="../Images/DSCF6329.jpg">
 	<img class="slide" src="../Images/DSCF6382.jpg">
-    
+        
     <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
     <button class="next" onclick="plusSlides(1)">&#10095;</button>
 	
-	</div>
-	<script>
+     </div>
+        <script>
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -85,14 +87,12 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
   </script>
-	
-    <button class="read">Read More</button>
-</div>
 
 <section class="news">
-    <section class="left">Latest News</section>
-    
-    <section class="right">Events/Info/Trends/Social Media</section>    
+    <div class="left">Battered Wife</div>
+    <div class="right">Protection Order</div>
+    <div class="left">ALS</div>
+    <div class="right">Recommend PhilHealth</div> 
 </section>
 
 <footer class="foot">
@@ -118,11 +118,11 @@ function showDivs(n) {
         <p>Connect With Us</p>
     </section> 
 
-<div class="social">        
+<section class="social">        
     <a href="https://facebook.com"><img src="../Images/facebook-icon.png"  class="socialfa"></a>
     <a href="https://twitter.com"><img src="../Images/twitter-icon.png"  class="socialtw"></a>
     <a href="https://youtube.com"><img src="../Images/youtube-icon.png"  class="socialyo"></a>
-</div>
+</section>
 </footer>
 
 </body>

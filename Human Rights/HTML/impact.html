@@ -53,14 +53,13 @@
     </nav>
 </header>
     
-<section class="middle">
-    <section class="slide"><img src="../Logo/HumanRightsLogo.png"></section>
+<section class="impact">
+    <section class="impact-slide"><img src="../Logo/HumanRightsLogo.png">
+    </section>
     
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    <button class="read">Impact/Quotes/Statistics</button>
-</section>
-
+    <button class="impact-button">Impact/Quotes/Statistics</button>
+    </section>
+    
 <footer class="foot">
     <section class="first">
   <form class="email">Be informed. Join our mailing list. &nbsp; 
@@ -80,16 +79,32 @@
         <p>Who We Are FAQs Make A Difference Events</p>
     </section>
     
-<section class="fourth">
-        <p>Connect With Us</p>
-</section>
-
-<div class="social">        
+  <section class="social">
+    <p>Connect With Us</p>
+    
     <a href="https://facebook.com"><img src="../Images/facebook-icon.png"  class="socialfa"></a>
     <a href="https://twitter.com"><img src="../Images/twitter-icon.png"  class="socialtw"></a>
     <a href="https://youtube.com"><img src="../Images/youtube-icon.png"  class="socialyo"></a>
-</div>
+    </section>
 </footer>
 
+        <button onclick="topFunction()" id="top" title="Go To Top">TOP</button>
+    
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("top").style.display = "block";
+    } else {
+        document.getElementById("top").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}    
+</script>
 </body>
 </html>

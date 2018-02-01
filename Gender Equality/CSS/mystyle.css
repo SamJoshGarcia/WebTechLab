@@ -188,3 +188,80 @@ footer{
 	border: 1.7px solid #fbf7b8;
 	background-color: #f5f4f2;
 }
+
+/*.container-aboutUs{
+	height: 100%;
+	width: 100%;
+	margin-top: 2%;
+	margin-left: 0%;
+	margin-right: 0%;
+	position: relative;
+}*/
+
+.aboutUs{
+	height: 100%;
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.aboutUs:hover{
+	opacity: .95;
+}
+
+.aboutUs-txt{
+	width: 50%;
+	height: 20%;
+	margin-left: 20%;
+	margin-top: 5%;
+	font-family: Helvetica;
+	font-size: 24px;
+	text-align: right;
+}
+
+.genderEq{
+	margin-left: 20%;
+	margin-top: -1%;
+}
+
+.genderEq:hover{
+	opacity: .9;
+}
+
+.aboutUs-txtTwo{
+	line-height: 1.5;
+	width: 35%;
+	margin-left: 36%;
+	margin-top: -18%;
+	font-family: Helvetica;
+	font-size: 18px;
+	text-align: left;
+}
+
+.aboutUs-mission{
+	margin-left: 10%;
+	margin-top: 8%;
+	font-family: Helvetica;
+	font-size: 27px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.aboutUs-missionTxt{
+	line-height: 1.5;
+	margin-left: 10%;
+	margin-top: 2%;
+	font-family: Helvetica;
+	font-size: 18px;
+	text-align: left;
+}
+
+#txt .inblockMission{
+    display: inline-block;
+    width: 35%;
+    margin: 10px 10px;
+    margin-top: 5%;
+    margin-left: 9.2%;
+    vertical-align: top;
+}
+

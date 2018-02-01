@@ -3,7 +3,7 @@
 <head>
 <link rel="stylesheet" href="../CSS/styles.css" type="text/css">
 <link rel="icon" href="../Logo/HumanRightsIcon.ico">
-<meta charset="UTF-8" name="description" content="Human Rights">
+<meta charset="UTF-8" name="description" content="Human Rights">    
   
 <title>Enlightenment Of Betag Humanism</title>
 </head>
@@ -13,74 +13,88 @@
 <header>
 <div id="logo"><img src="../Logo/HumanRightsLogo.png"></img>
 </div>
+	
 	<nav class ="menu">
 		<nav class ="dropdown">
             <a class="dropdown-button" href="home.html">Home</a>
 		</nav>
-            
-    <nav class="dropdown">
+        <nav class="dropdown">
             <button class="dropdown-button">Who We Are</button>
             <nav class="dropdown-content">
                 <a href="team.html">Meet The Team</a>
                 <a href="impact.html">The Impact</a>
                 <a href="about.html">About Us</a>
             </nav>
-    </nav>
-        
-    <nav class="dropdown">
+        </nav>
+        <nav class="dropdown">
             <button class="dropdown-button">What We Do</button>
             <nav class="dropdown-content">
                 <a href="pe.html">Projects and Events</a>
                 <a href="faqs.html">FAQs</a>
             </nav>
-    </nav>
+        </nav>
         
-    <nav class="dropdown">
+        <nav class="dropdown">
             <button class="dropdown-button">News And Updates</button>
             <nav class="dropdown-content">
-            <a href="nb.html">News And Blogs</a>
-        </nav>      
-    </nav>
+                <a href="nb.html">News And Blogs</a>
+            </nav>      
+        </nav>
         
-    <nav class="dropdown">
+        <nav class="dropdown">
             <button class="dropdown-button">Join The Movement</button>
             <nav class="dropdown-content">
                 <a href="part.html">Be A Part</a>
                 <a href="inform.html">Be Informed</a>
                 <a href="donate.html">Donate</a>
             </nav>
+        </nav>
     </nav>
-   </nav>
 </header>
 
-   <div id="slideofhumanity">
-        <section class="middle">
-            <a href="nb.html">
-                <h1>Title of News/Info</h1>
-            </a>
-    
-    <div id="slide">
-      <img class="slide" src="../Images/DSCF6304.jpg">
-    	<img class="slide" src="../Images/DSCF6301.jpg">
-	   <img class="slide" src="../Images/DSCF6329.jpg">
-	   <img class="slide" src="../Images/DSCF6382.jpg">
-    </div> 
-        
-        <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
-        <button class="next" onclick="plusSlides(1)">&#10095;</button>
-    
-      </section>
-   </div>
-  
+
+<div class="middle">
+    Title of News/Info
+	
+	<div id="slidepages">
+		<img class="slide" src="../Images/DSCF6304.jpg">
+		<img class="slide" src="../Images/DSCF6301.jpg">
+		<img class="slide" src="../Images/DSCF6329.jpg">
+		<img class="slide" src="../Images/DSCF6382.jpg">
+		
+		<button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+		<button class="next" onclick="plusSlides(1)">&#10095;</button>
+	
+	</div>
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusSlides(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("slide");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+  </script>
+	
+    <button class="read">Read More</button>
+</div>
+
 <section class="news">
-    <div class="left">Battered Wife</div>
-    <div class="right">Protection Order</div>
-    <div class="left">ALS</div>
-    <div class="right">Recommend PhilHealth</div> 
+    <section class="left">Latest News</section>
+    
+    <section class="right">Events/Info/Trends/Social Media</section>    
 </section>
 
-  <button class="view-button">View More</button>
-    
 <footer class="foot">
     <section class="first">
  <form class="email">Be informed. Join our mailing list. &nbsp; 
@@ -90,60 +104,27 @@
      </section>
     
     <section class="second"> 
-      <p>   Address <br>
-            Contact Info <br>
-            Email 
-      </p>
+  <p>   Address <br>
+        Contact Info <br>
+        Email 
+  </p>
     </section>
     
     <section class="third">
         <p>Who We Are FAQs Make A Difference Events</p>
     </section>
     
-    <section class="social">
-    <p>Connect With Us</p>
-    
+    <section class="fourth">
+        <p>Connect With Us</p>
+ 
+
+<div class="social">        
     <a href="https://facebook.com"><img src="../Images/facebook-icon.png"  class="socialfa"></a>
     <a href="https://twitter.com"><img src="../Images/twitter-icon.png"  class="socialtw"></a>
     <a href="https://youtube.com"><img src="../Images/youtube-icon.png"  class="socialyo"></a>
-    </section>
+</div>
+</section> 
 </footer>
 
-    <button onclick="topFunction()" id="top" title="Go To Top">TOP</button>
-    
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusSlides(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slide");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-    
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("top").style.display = "block";
-    } else {
-        document.getElementById("top").style.display = "none";
-    }
-}
-
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}    
-</script>
 </body>
 </html>

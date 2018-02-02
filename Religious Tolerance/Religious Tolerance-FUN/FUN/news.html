@@ -7,30 +7,28 @@ header, footer {
     background-color: #C71585;
     clear: left;
     text-align: center;
+}	
+
+.background {
+	background-image: url("field.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	width: 100%;
+	overflow:auto;
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 2px solid black;
+.column {
+  float: left;
+  width: 30%;
+  margin-left: 1%; 
+  margin-right: 1%;
+  margin-bottom: 2%;
+  margin-top: 3%;
+  padding: 0 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    position: absolute;
-    z-index: 1;
-    top: -5px;
-    left: 105%; 
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
 </style>
 </head>
 
@@ -39,9 +37,42 @@ header, footer {
 </header>
 
 <body>
-<div style="text-align: center;"><p class="tooltip">PLACE ARTICLES HERE
-  <span class="tooltiptext">NEWS ABOUT RELIGIOUS TOLERANCE</span></p>
-  </div>
+ <div class="background">	
+		<div class="column">
+			<img src="church.jpg" style="margin-top:1%;width:100%;height:40%">
+			<div>
+				<p><b>Barangay's Official Group</b><p>
+				<p>Religious Tolerance is already being promoted<br></p>
+				<p style="text-align: right;color:gray;">January 26, 2018</p>
+			</div>
+		</div>
+
+		<div class="column">
+			<img src="team.jpg" style="margin-top:1%;width:100%;height:40%">
+			<div>
+				<p><b>MEET THE TEAM</b><p>
+				<p>IT proffesionals visit barangay Betag<br></p>
+				<p style="text-align: right;color:gray;">January 26, 2018</p>
+			</div>
+		</div>
+
+		<div class="column">
+			<img src="bamboo.jpg" style="margin-top:1%;width:100%;height:40%">
+			<div>
+				<p><b>Strawberry Farm</b><p>
+				<p>450php for strawberry picking<br></p>
+				<p style="text-align: right;color:gray;">January 26, 2018</p>
+			</div>
+		</div>
+		<div class="column">
+			<img src="kids.jpg" style="margin-top:1%;width:100%;height:40%">
+			<div>
+				<p><b>Kids of Betag</b><p>
+				<p>Kids freely playing around Strawberry Farm<br></p>
+				<p style="text-align: right;color:gray;">January 26, 2018</p>
+			</div>
+		</div>		
+</div>
 </body>
 
 <footer>Copyright &copy; SJ.GRC</footer>

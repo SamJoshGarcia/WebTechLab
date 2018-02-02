@@ -37,21 +37,29 @@ header {
 	margin: auto;
 }
 
+header:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
 .menu {
     position: relative;
     margin: auto;
     text-align: center;
     float: right;
-    text-decoration: none;
     z-index: 2;
 }
 
 .menu a {
+    display: block;
     padding: 15px;
+    font-size: 90%;
     color: #FFF;
     text-align: center;
     text-transform: Uppercase;
     text-decoration: none;
+    margin: auto;
 }
 
 .menu button {
@@ -67,24 +75,24 @@ header {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    padding: 5px;
 }
 
 .dropdown-button {
     background-color: yellowgreen;
     color: #FFF;
-    font-size: 15px;
+    font-size: 90%;
     cursor: pointer;
+    border: none;
     font-weight: bolder;
     display: inline-block;
-    
+	margin: 1px;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
 	right: 1;
-    background-color:blue;
+    background-color: cornflowerblue;
     min-width: 100%;
 	z-index: 3;
 }
@@ -92,15 +100,13 @@ header {
 .dropdown-content a {
     color: #FFF;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 90%;
     padding: 15px 20px;
     font-weight: bolder;
-    min-width: 100%;
-    border: 3px solid black;
 }
 
 .dropdown-content a:hover {
-    background-color: darksalmon;
+    background-color:darksalmon;
 }
 
 .dropdown:hover .dropdown-content {
@@ -128,48 +134,9 @@ header {
     width: 100%;
 }
 
-slide {
-    position: relative;
-    display: inline-block;
-  	max-width: 100%;
-  	height: auto;
-    opacity: 0.8;
-    background-color: transparent;
-}
-
-.prev, .next {
-  background-color: transparent;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 15px;
-  margin-top: -22px;
-  padding: 20px;
-  color: white;
-  font-weight: bolder;
-  font-size: 40px;
-  transition: 0.6s ease;
-  margin: auto;
-}
-
-.next {
-  right: 0;
-  border-radius: 5px 0 0 5px;
-}
-
-.prev {
-  left: 0;
-  border-radius: 5px 0 0 5px;
-}
-
-.prev:hover, .next:hover {
-  background-color: yellowgreen;
-}
-
 #slideofhumanity h1 {
-    padding: 35px;
-    font-size: 45px;
+    padding: 2%;
+    font-size: 300%;
     margin: auto;
     border: 2px solid black;
     position: absolute;
@@ -183,11 +150,12 @@ slide {
 
 .middle {
     display: block;
-    max-width: 1280px;
+    max-width: 1300%;
     text-align: center;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
     color: #FFF;
     background-color: transparent;
     transition: background 1s linear 0s, color 3s linear 0s;
@@ -211,36 +179,6 @@ slide {
     text-decoration: none;
 }
 
-.read-button {
-    text-transform: uppercase;
-    position: absolute;
-    padding: 5px;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    text-align: center;
-    color: black;
-    background-color: #FFF;
-    font-size: 25px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease-out,
-              border-color 0.3s ease-out;
-}
-
-.read-button:hover, .read-button:active {
-    color: white;
-    background-color: darkgoldenrod;
-    border-color: black;
-    border-color: darkgoldenrod;
-    transition: background-color 0.2s ease-in,
-              border-color 0.2s ease-in;
-}
-
 #slide img {
     max-width: 100%;
     height: auto;
@@ -249,19 +187,20 @@ slide {
 }
 
 .impact {
-    display: block;
-    max-width: 1240px;
+  display: block;
+    max-width: 1300%;
     text-align: center;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
     color: #FFF;
-    background-color: black;
+    background-color: transparent;
     transition: background 1s linear 0s, color 3s linear 0s;
     height: 100%; 
     width: 100%;
     object-fit: contain;
+    text-decoration: none;
 }
 
 .impact-slide {
@@ -300,13 +239,34 @@ slide {
               border-color 0.2s ease-in;
 }
 
+.impact img {
+    max-width: 100%;
+    height: auto;
+    width: auto;    
+    object-fit: contain;
+}
+
+.impact h1 {
+    padding: 2%;
+    font-size: 300%;
+    margin: auto;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-weight: bolder;
+}
+
 .news {
     margin-top: 5%;
-    margin-bottom: 40%;
+    margin-bottom: 45%;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 200%;
 }
 
 .left {
@@ -364,7 +324,7 @@ footer {
     background-color:darkgoldenrod;
     color: #FFF;
     padding: 5px 10px;
-    font-size: 15px;
+    font-size: 100%;
     cursor: pointer;
     border: none;
     font-weight: bold;
@@ -393,12 +353,12 @@ footer {
 
 .thank h2 {
     font-weight: bold;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-top: 1%;
+    margin-bottom: 2%;
     text-decoration: none;
     color: cornflowerblue;
     text-align: center;
-    font-size: 20px;
+    font-size: 120%;
 }    
 
 .foot {
@@ -417,16 +377,16 @@ footer {
     color: #000;
     border: 4px solid;
     margin: 0 0 0 0;
-    padding: 15px;
+    padding: 1%;
 }
 
 .second {
     margin: 0 0 0 0;
     width: 20%;
-    padding: 20px;
+    padding: 2%;
     border: 3px solid;
     margin-top: 3%;
-    color:#89EB4F;
+    color: yellowgreen;
     float: left;
     margin-left: auto;
     margin-right: auto;
@@ -435,11 +395,11 @@ footer {
 
 .third {
     margin: 0 0 0 0;
-    width: 23%;
-    padding: 20px;
+    width: 25%;
+    padding: 3%;
     border: 3px solid;
     margin-top: 3%;
-    color:#89EB4F;
+    color: yellowgreen;
     float: left;
     margin-left: 8%;
     margin-right: 4%;
@@ -450,7 +410,7 @@ footer {
     width: 25%;
     padding: 5px;
     margin-top: 3%;
-    color:#89EB4F;
+    color: yellowgreen;
     float: right;
     margin-left: auto;
     margin-right: auto;
@@ -458,8 +418,8 @@ footer {
 }
 
 .social img {
-    width: 40px;
-    padding: 8px;
+    width: 12%;
+    padding: 2%;
 }
 
 .socialfa:hover {
@@ -488,56 +448,116 @@ footer {
 
 .foot p {
     text-align: center;
-    font-size: 20px;
+    font-size: 150%;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bold;
 }
 
 .events {
+    display: inline;
     color: black;
+    text-align: center;
+}
+
+.events h5 {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+	padding-left: 20%;
+    padding-right: 20%;
+}
+
+.events p {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-size: 200%;
+	padding-left: 20%;
+    padding-right: 20%;
+}
+
+.parts {
+    background-color: cornflowerblue;
+    color: #FFF;
     border: 2px solid #ccc;
     text-align: center;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    width: 80%;
-    height: 80%;
-    padding: 40px;
+    width: 50%;
+    height: 50%;
+    padding: 5%;
 }
 
-.events h5 {
-	margin: 0;
+.parts h2 {
+	margin: auto;
+    text-align: center;
 	font-weight: bold;
-	font-size: 20px;
-	padding-left: 15%;
+	font-size: 250%;
+	padding-left: 12%;
+    padding-right: 12%;
 	display: block;
-	float: left;
+    font-weight: bold;
 }
 
-.events input {
-	margin-bottom: 15px;
-	height: 4vh;
-	width: 70%;
+.parts h5 {
+	margin: auto;
+    text-align: center;
+	font-weight: bold;
+	font-size: 120%;
+	padding-left: 10%;
+    padding-right: 10%;
+	display: block;
+}
+
+.parts p {
+    background-color: yellowgreen;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	font-size: 100%;
+    border: 2px solid #FFF;
+    border-radius: 4%;
+}
+
+.parts input {
+	margin-bottom: 10%;
+	width: 55%;    
 	display: block;
 	margin: auto;
 	clear: left;
-	border: 3px solid #73AD21;
-	font-size: 20px;
+	border: 3px solid darksalmon;
 }
 
-.events input:focus {
-	border: 3px solid #EF9219;
+.parts input:focus {
+	border: 3px solid darkgoldenrod;
 }
 
 .register {
 	background-color: yellowgreen;
 	cursor: pointer;
-	color: black;
-	font-weight: bold;
-	font-size: 40px;
+	color: #FFF;
+	font-weight: bolder;
+	font-size: 200%;
 	border: 3px solid black;
-	border-radius: 40px;
+	border-radius: 8%;
+    text-transform: uppercase;
+}
+
+.register:hover {
+    background-color: black;
+    color: yellowgreen;
 }
 
 .events p {
@@ -571,28 +591,34 @@ footer {
 
 .form {
     font-weight: bold;
-    color:darkgoldenrod;
-    display: inline;
-    width: 50px;
+    color: #FFF;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;    
+    font-size: 120%;
+    background-color: cornflowerblue;
 }
 
 .form p {
     display: inline-block;
     margin: auto;
-    font-size: 10px;
+    font-size: 70%;
 }
 
 .stayinformed {
+    margin-left: auto;
+    margin-right: auto;
     background-color:darkgoldenrod;
     color: #FFF;
-    padding: 5px 10px;
-    font-size: 15px;
+    padding: 2% 1%;
+    font-size: 60%;
     cursor: pointer;
     border: none;
     font-weight: bold;
-    display: inline-block;
+    display: block;
     text-transform: uppercase;
-    margin: auto;
     box-shadow: 5px 5px white; 
     -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -614,22 +640,22 @@ footer {
 .meet h1 {
     font-weight: bolder;
     color: black;
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 55px;
-    font-size: 65px;
-    margin: auto;
+    padding: 5%;
+    font-size: 350%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #image .team{
     display: inline-block;
-    height: 290px;
-    width: 300px;
-    margin: 5px 5px;
+    height: 300px;
+    width: 25%;
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-bottom: 5%;
     vertical-align: top;
     border: 3px solid;
@@ -659,75 +685,58 @@ footer {
     text-transform: lowercase;
 }
 
-.team-desc b{
+.team-desc b {
     text-transform: capitalize;
+    font-weight: bolder;
 } 
 
-.part {
-    margin: 5% 0px 5%;
-	padding: 5% 0% 5%;
-    font-weight: bold;
-    font-size: 20px;
+.blogs {
+    display: inline;
     color: black;
+    border: 2px solid #ccc;
     text-align: center;
-    border: 2px solid black;
-}
-
-.part-desc h2{
-    color: black;
-    text-align: center;
-}
-
-.view-button {
-    text-transform: uppercase;
-    padding: 5px;
     margin-top: 5%;
-    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 80%;
+    padding: 5%;
+}
+
+.blogs h5 {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+	padding-left: 20%;
+    padding-right: 20%;
+}
+
+.donate {
     color: black;
-    background-color: #FFF;
-    font-size: 25px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease-out,
-              border-color 0.3s ease-out;
 }
 
-.view-button:hover, .view-button:active {
-    color: white;
-    background-color: darkgoldenrod;
-    border-color: black;
-    border-color: darkgoldenrod;
-    transition: background-color 0.2s ease-in,
-              border-color 0.2s ease-in;
+.donate h5 {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 250%;
 }
 
-#top {
-  display: none;
-  position: fixed;
-  bottom: 15px;
-  right: 20px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: darkgoldenrod;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 15%;
-}
-
-#top:hover {
-  background-color: yellowgreen;
-}
-
-header:after {
-	content: '';
-	display: block;
-	clear: both;
+.donate p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	font-size: 120%;
 }

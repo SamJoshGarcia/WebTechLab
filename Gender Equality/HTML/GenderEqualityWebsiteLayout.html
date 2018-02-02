@@ -10,10 +10,8 @@
 <body>
 
 <header>
-<div id="logo"><img src="../IMAGES/Gender Equality.png"></img>
-</div>
-	
-	<nav class ="menu">
+<section id="logo"><img src="../IMAGES/Gender Equality.png"></img></section>
+	<section class ="menu">
 		<nav class ="dropdown">
             <a class="dropdown-button" href="home.html">Home</a>
 		</nav>
@@ -48,60 +46,41 @@
                 <a href="donate.html">Donate</a>
             </nav>
         </nav>
-    </nav>
+    </section>
 </header>
 
 
 <div class="middle">
-    Title of News/Info
-	
-	<div id="slidepages">
-		<img class="slide" src="../Images/DSCF6311.jpg">
-		<img class="slide" src="../Images/DSCF6321.jpg">
-		<img class="slide" src="../Images/DSCF6362.jpg">
-		<img class="slide" src="../Images/DSCF6328.jpg">
-		
-		<button class="prev" onclick="plusSlides(-1)">&#10094;</button>
-		<button class="next" onclick="plusSlides(1)">&#10095;</button>
-	
-	</div>
-	<script>
-		var slideIndex = 1;
-		showDivs(slideIndex);
-
-		function plusSlides(n) {
-		  showDivs(slideIndex += n);
-		}
-
-		function showDivs(n) {
-		  var i;
-		  var x = document.getElementsByClassName("slide");
-		  if (n > x.length) {slideIndex = 1}    
-		  if (n < 1) {slideIndex = x.length}
-		  for (i = 0; i < x.length; i++) {
-			 x[i].style.display = "none";  
-		  }
-		  x[slideIndex-1].style.display = "block";  
-		}
-  </script>
-	
-    <button class="read">Read More</button>
+	NO CONTENT AT A MOMENT SINCE IT IS NOT SURE
 </div>
 
-<section class="news">
-    <section class="Ln">Latest News</section>
-    
-    <section class="left">Events/Info/Trends/Social Media</section>    
-</section>
 
-<footer class="foot">
-    <section class="first">
- <form class="email">Be informed. Join our mailing list. &nbsp; 
-  <input type="text" name="email" value="email@email.com">
-  <input class="submit" type="submit" value="Submit">
-  </form>
-     </section>
+
+
+<section class="news">
+	<div class="eventList">
+		<img class="eventsimg" src="../IMAGES/DSCF6311.jpg">
+		<h5>anong meron dto? ahahahaha</h5>
+	</div>
+	<div class="eventList">
+		<img class="eventsimg" src="../IMAGES/DSCF6321.jpg">
+		<h5>dito</h5>
+	</div>
+	<div class="eventList">
+		<img class="eventsimg" src="../IMAGES/DSCF6327.jpg">
+		<h5>dito</h5>
+	</div>
+	<div class="eventList">
+		<img class="eventsimg" src="../IMAGES/DSCF6363.jpg">
+		<h5>at dito</h5>
+	</div>
+	
+</section>
     
+	
+	
+	
+	<footer class="foot">
     <section class="second"> 
   <p>   Address <br>
         Contact Info <br>

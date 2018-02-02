@@ -3,22 +3,21 @@
 <head>
 <link rel="stylesheet" href="../CSS/styles.css" type="text/css">
 <link rel="icon" href="../Logo/HumanRightsIcon.ico">
-<meta charset="UTF-8" name="description" content="Human Rights">
+<meta charset="UTF-8" name="description" content="Human Rights">    
   
 <title>Enlightenment Of Betag Humanism</title>
 </head>
 
 <body>
 
-<div id="logo"><img src="../Logo/HumanRightsLogo.png">
-</div>
-    
 <header>
-<nav class ="menu">
-    <nav class ="dropdown">
-           <a class="dropdown-button" href="home.html">Home</a>
-    </nav>
-            
+<div id="logo"><img src="../Logo/HumanRightsLogo.png"></img>
+</div>
+	
+	<nav class ="menu">
+		<nav class ="dropdown">
+            <a class="dropdown-button" href="home.html">Home</a>
+		</nav>
         <nav class="dropdown">
             <button class="dropdown-button">Who We Are</button>
             <nav class="dropdown-content">
@@ -52,39 +51,57 @@
         </nav>
     </nav>
 </header>
-    
-<div class="events">
-	<h2>Sign up</h2>
-    <p>Take part in creating policy in our society to make people safe in everywhere they go. 
-	Your opinion is  greatly needed for us to solution the problem of our society.</p>
-	<h5>email</h5></br>
-	<input type="text" name="email"></br>
-	<h5>name</h5></br>
-	<input type="text" name="name"></br>
-	<h5>phone</h5></br>
-	<input type="text" name="phone"></br>
-	<h5>Address line 1</h5></br>
-	<input type="text" name="AddressLine1"></br>
-	<h5>Address line 2</h5></br>
-	<input type="text" name="AddressLine2"></br>
-	<h5>City</h5></br>
-	<input type="text" name="City"></br>
-	<h5>State</h5></br>
-	<input type="text" name="State"></br>
-	<h5>Zip Code</h5></br>
-	<input type="text" name="ZipCode"></br>
-	<h5>Country</h5></br>
-	<input type="text" name="Country"></br>
-	<button class="register">Submit</button>
+
+
+<div class="middle">
+    Title of News/Info
+	
+	<div id="slidepages">
+		<img class="slide" src="../Images/DSCF6304.jpg">
+		<img class="slide" src="../Images/DSCF6301.jpg">
+		<img class="slide" src="../Images/DSCF6329.jpg">
+		<img class="slide" src="../Images/DSCF6382.jpg">
+		
+		<button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+		<button class="next" onclick="plusSlides(1)">&#10095;</button>
+	
+	</div>
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusSlides(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("slide");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+  </script>
+	
+    <button class="read">Read More</button>
 </div>
 
-    <footer class="foot">
+<section class="news">
+    <section class="left">Latest News</section>
+    
+    <section class="right">Events/Info/Trends/Social Media</section>    
+</section>
+
+<footer class="foot">
     <section class="first">
-  <form class="email">Be informed. Join our mailing list. &nbsp; 
+ <form class="email">Be informed. Join our mailing list. &nbsp; 
   <input type="text" name="email" value="email@email.com">
   <input class="submit" type="submit" value="Submit">
   </form>
-    </section>
+     </section>
     
     <section class="second"> 
   <p>   Address <br>
@@ -97,15 +114,16 @@
         <p>Who We Are FAQs Make A Difference Events</p>
     </section>
     
-  <section class="fourth">
+    <section class="fourth">
         <p>Connect With Us</p>
-</section>
+ 
 
 <div class="social">        
     <a href="https://facebook.com"><img src="../Images/facebook-icon.png"  class="socialfa"></a>
     <a href="https://twitter.com"><img src="../Images/twitter-icon.png"  class="socialtw"></a>
     <a href="https://youtube.com"><img src="../Images/youtube-icon.png"  class="socialyo"></a>
 </div>
+</section> 
 </footer>
 
 </body>

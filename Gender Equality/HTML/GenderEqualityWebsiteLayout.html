@@ -1,77 +1,129 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset="UTF-8" />
-			<title> BeGot Invigorated</title>
-			<link rel="stylesheet" type="text/css" href="../CSS/mystyle.css">
-		</head>
+<html>
+<head>
+<link rel="stylesheet" href="../CSS/mystyle.css" type="text/css">
+<meta charset="UTF-8" name="description" content="Human Rights">    
+  
+<title>Enlightenment Of Betag Humanism</title>
+</head>
+
+<body>
+
+<header>
+<div id="logo"><img src="../IMAGES/Gender Equality.png"></img>
+</div>
+	
+	<nav class ="menu">
+		<nav class ="dropdown">
+            <a class="dropdown-button" href="home.html">Home</a>
+		</nav>
+        <nav class="dropdown">
+            <button class="dropdown-button">Who We Are</button>
+            <nav class="dropdown-content">
+                <a href="team.html">Meet The Team</a>
+                <a href="impact.html">The Impact</a>
+                <a href="about.html">About Us</a>
+            </nav>
+        </nav>
+        <nav class="dropdown">
+            <button class="dropdown-button">What We Do</button>
+            <nav class="dropdown-content">
+                <a href="pe.html">Projects and Events</a>
+                <a href="faqs.html">FAQs</a>
+            </nav>
+        </nav>
+        
+        <nav class="dropdown">
+            <button class="dropdown-button">News And Updates</button>
+            <nav class="dropdown-content">
+                <a href="nb.html">News And Blogs</a>
+            </nav>      
+        </nav>
+        
+        <nav class="dropdown">
+            <button class="dropdown-button">Join The Movement</button>
+            <nav class="dropdown-content">
+                <a href="part.html">Be A Part</a>
+                <a href="inform.html">Be Informed</a>
+                <a href="donate.html">Donate</a>
+            </nav>
+        </nav>
+    </nav>
+</header>
+
+
+<div class="middle">
+    Title of News/Info
+	
+	<div id="slidepages">
+		<img class="slide" src="../Images/DSCF6311.jpg">
+		<img class="slide" src="../Images/DSCF6321.jpg">
+		<img class="slide" src="../Images/DSCF6362.jpg">
+		<img class="slide" src="../Images/DSCF6328.jpg">
 		
-		<body>
-			<div id = "container">
-			<header>
-				<div class="dropdown">
-			  		<button class="dropdown-button">Who We Are</button>
-			  		<div class="dropdown-content">
-						<a href = "meetTeam.html">Meet the team</a>
-						<a href="impact.html">The Impact</a>
-						<a href = "about.html">About Us</a>
-			  		</div>
-				</div>
-				<div class="dropdown">
-					<button class="dropdown-button">What We Do</button>
-					<div class="dropdown-content">
-						<a href = "projectEvent.html">Projects and Events</a>
-						<a href= "FAQs.html">FAQs</a>
-			  		</div>
-				</div>
-				<div class="dropdown"><a href = "newsBlogs.html">
-			  		<button class="dropdown-button">News and Blogs</button>
-			  	</a>
-				</div>
-				<div class="dropdown">
-			  		<button class="dropdown-button">Join the movement</button>
-			  		<div class="dropdown-content">
-						<a href = "bePart.html">Be a part</a>
-						<a href = "beInformed.html">Be informed</a>
-						<a href = "donate.html">Donate</a>
-			 		</div>
-				</div>
-			</header>
-		
-		
-			<div class="middle">
-				<h1>IMAGES</h1>
-			</div>
-		
-			<div class="news">
-				<div class="left" margin-top=5%>
-					1st
-				</div>
-				<div class="right">
-					2nd
-				</div>
-				<div class="left">
-					3rd
-				</div>
-				<div class="right">
-					4th
-				</div>
-			</div>
-		
-		
-			<footer>
-				<div class="first">
-					<label>
-						Be informed. Join our mailing list
-						<input type="text" name="email" value="Enter email here" class="cleardefault">
-						<input type="submit" value="Submit">
-					</label>
-				</div>
-		
-				<div class="second">
-				
-				</div>
-			</div>
-			</footer>
-		</body>	
-	</html>
+		<button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+		<button class="next" onclick="plusSlides(1)">&#10095;</button>
+	
+	</div>
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusSlides(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("slide");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+  </script>
+	
+    <button class="read">Read More</button>
+</div>
+
+<section class="news">
+    <section class="Ln">Latest News</section>
+    
+    <section class="left">Events/Info/Trends/Social Media</section>    
+</section>
+
+<footer class="foot">
+    <section class="first">
+ <form class="email">Be informed. Join our mailing list. &nbsp; 
+  <input type="text" name="email" value="email@email.com">
+  <input class="submit" type="submit" value="Submit">
+  </form>
+     </section>
+    
+    <section class="second"> 
+  <p>   Address <br>
+        Contact Info <br>
+        Email 
+  </p>
+    </section>
+    
+    <section class="third">
+        <p>Who We Are FAQs Make A Difference Events</p>
+    </section>
+    
+    <section class="fourth">
+        <p>Connect With Us</p>
+ 
+
+<div class="social">        
+    <a href="https://facebook.com"><img src="../Images/facebook-icon.png"  class="socialfa"></a>
+    <a href="https://twitter.com"><img src="../Images/twitter-icon.png"  class="socialtw"></a>
+    <a href="https://youtube.com"><img src="../Images/youtube-icon.png"  class="socialyo"></a>
+</div>
+</section> 
+</footer>
+
+</body>
+</html>

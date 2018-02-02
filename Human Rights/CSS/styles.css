@@ -266,7 +266,7 @@ header:after {
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 .left {
@@ -490,13 +490,23 @@ footer {
     color: #FFF;
     border: 2px solid #ccc;
     text-align: center;
-    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
     width: 50%;
     height: 50%;
     padding: 5%;
+}
+
+.parts h1 {
+    display: block;
+    margin-top: 5%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
 }
 
 .parts h2 {
@@ -560,33 +570,66 @@ footer {
     color: yellowgreen;
 }
 
-.events p {
-	margin-bottom: 50px;
-}
 .about {
+    display: inline;
     color: black;
-    border: 2px solid #ccc;
     text-align: center;
-    margin-top: 5%;
+}
+
+.about h5 {
+    display: block;
+	margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    width: 80%;
-    height: 80%;
-    padding: 40px;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+	padding-left: 20%;
+    padding-right: 20%;
+}
+
+.about p {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-size: 200%;
+	padding-left: 20%;
+    padding-right: 20%;
 }
 
 .faqs {
+    display: inline;
     color: black;
-    border: 2px solid #ccc;
     text-align: center;
-    margin-top: 5%;
+}
+
+.faqs h5 {
+    display: block;
+	margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    width: 80%;
-    height: 80%;
-    padding: 40px;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+	padding-left: 20%;
+    padding-right: 20%;
+}
+
+.faqs p {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-size: 200%;
+	padding-left: 20%;
+    padding-right: 20%;
 }
 
 .form {
@@ -605,6 +648,28 @@ footer {
     display: inline-block;
     margin: auto;
     font-size: 70%;
+}
+
+.form h1 {
+    display: block;
+    margin-top: 5%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+}
+
+.form h2 {
+    margin: auto;
+    text-align: center;
+	font-weight: bold;
+	font-size: 250%;
+	padding-left: 12%;
+    padding-right: 12%;
+	display: block;
+    font-weight: bold;
 }
 
 .stayinformed {
@@ -635,18 +700,18 @@ footer {
     padding: 0 0 0 0;
     display: inline;
     text-align: center;
+    color: black;
 }
 
-.meet h1 {
-    font-weight: bolder;
-    color: black;
+.meet h5 {
     display: block;
+	margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    padding: 5%;
-    font-size: 350%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
 }
 
 #image .team{
@@ -691,17 +756,10 @@ footer {
 } 
 
 .blogs {
+    padding: 0 0 0 0;
     display: inline;
-    color: black;
-    border: 2px solid #ccc;
     text-align: center;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    width: 80%;
-    height: 80%;
-    padding: 5%;
+    color: black;
 }
 
 .blogs h5 {
@@ -710,12 +768,9 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    
     text-align: center;
 	font-weight: bold;
 	font-size: 350%;
-	padding-left: 20%;
-    padding-right: 20%;
 }
 
 .donate {
@@ -730,7 +785,7 @@ footer {
     margin-bottom: 5%;
     text-align: center;
 	font-weight: bold;
-	font-size: 250%;
+	font-size: 350%;
 }
 
 .donate p {

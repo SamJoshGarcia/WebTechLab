@@ -39,8 +39,10 @@ header, footer {
   margin-right: 14%;
 }
 
-.contact .mail{
-  margin-top:5%;
+.contact .donate{
+  text-align: left;
+  margin-top:2%;
+  margin-left:0.5%;
   float:left;
   width:40%;
   height:100%;
@@ -50,6 +52,7 @@ header, footer {
   border-left:1px solid gray;
   float:left;
   width:59%;
+  height: 100%;
 }
 
 .head {
@@ -81,6 +84,14 @@ header, footer {
   height: 60%;
 }
 
+.contact .map{
+	width: 20%;
+	height:30%;
+	float: right;
+	margin-right: 15%;
+	border: 1px solid black;
+}
+
 .team{
   width:100%;
   overflow:auto;
@@ -101,8 +112,33 @@ image{
 </style>
 </head>
 
+<div id="logo">
+		<img src="logo.png">
+	</div>
+
 <header>
-	<h1 align="center">ABOUT</h1>
+	<article>
+        <nav class="dropdown">
+			<a href="about.html">
+				<button class="dropdown-button">About</button>  
+			</a>       
+        </nav>
+		
+        <nav class="dropdown">
+            <button class="dropdown-button">Pages</button>          
+
+        </nav>
+        
+        <nav class="dropdown">
+            <button class="dropdown-button">Events</button>          
+        </nav>
+        
+        <nav class="dropdown">
+			<a href="news.html">
+            <button class="dropdown-button">News</button>
+			</a>
+		</nav>
+	</article>
 </header>
 
 <body>
@@ -209,18 +245,23 @@ image{
 <div class="tail">
 	<br>
 	<div class="contact" id="contact">
-		<div class="mail">
-			</h1>Be informed. Join our mailing list</h1><br><br>
-			<input type="text" name="email" value="Enter email here" class="cleardefault"><br><br>
-			<button class="button">Subscribe</button>
+		<div class="donate">
+			<p>DONATE NOW! TOLERANCE STARTS WITH YOU!<br><br>
+               Ways to donate:<br>
+			   *Online bank transfer<br>
+			   *Over-the-counter banking<br>
+			   *Supported remittance centers<br>
+			   *Visit Betag Barangay Office<br><br>
+			   Contact us for further information, such us account numbers, or any other concerns<br><br>
+			   Thank you for your kind heart</p>
 		</div>
 		
 		<div class="git">
 			<h1>GET IN TOUCH</h1>
-			<p>km6 Baguio - La Trinidad - Bontoc Rd, La Trinidad, 2601 Benguet <br><img src="Betag.png"></p>
-			<p>09474203039<br><br>
-			<button class="button">Contact</button><br><br>
-			<button class="button">Donate</button></p>
+			<p><br><a href="map.html"><img src="Betag.png" class="map"></a><br>Barangay Betag located at
+			<br>km6 Baguio - La Trinidad - Bontoc Rd,<br> La Trinidad, 2601 Benguet</p><br><br>
+			<p>09474203039
+			<button class="button">Contact</button></p>
 		</div>
 	</div>
 </div>

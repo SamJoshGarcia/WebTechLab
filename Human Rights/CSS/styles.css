@@ -22,7 +22,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color:cornsilk;
+  background-color: cornsilk;
   color: #FFF;
   margin: 0;
   text-transform: uppercase;
@@ -367,7 +367,7 @@ header:after {
     text-transform: capitalize;
 }
 
-.second h3 {
+.second b {
     font-size: 120%;
     text-transform: lowercase;
 }
@@ -392,7 +392,6 @@ header:after {
 
 .social {
     width: 25%;
-    padding: auto;
     margin-top: 3%;
     color: yellowgreen;
     float: right;
@@ -569,7 +568,7 @@ header:after {
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
-	font-size: 120%;
+	font-size: 80%;
 	padding-left: 10%;
     padding-right: 10%;
 }
@@ -748,10 +747,12 @@ header:after {
 }
 
 .donate {
+    display: inline;
     color: black;
+    text-align: center;
 }
 
-.donate h5 {
+.donate h5 { 
     display: block;
 	margin-top: 5%;
     margin-left: auto;
@@ -760,12 +761,17 @@ header:after {
     text-align: center;
 	font-weight: bold;
 	font-size: 350%;
+	padding-left: 20%;
+    padding-right: 20%;
+
 }
 
 .donate p {
     display: block;
-    margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
     text-align: center;
-	font-size: 120%;
+	font-size: 80%;
+	padding-left: 10%;
+    padding-right: 10%;
 }

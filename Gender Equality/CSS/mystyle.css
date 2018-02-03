@@ -627,39 +627,44 @@ header:after {
     background-color: #f5f4f2;
 }
 
-/*.container-aboutUs{
+.container-aboutUs{
     height: 100%;
     width: 100%;
-    margin-top: 2%;
     margin-left: 0%;
     margin-right: 0%;
     position: relative;
-}*/
-
-.aboutUs{
-    height: 100%;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
 }
 
-.aboutUs:hover{
-    opacity: .95;
+.aboutUs{
+    top: 2%;
+    left: 39%;
+    margin-left: 0%;
+    margin-right: 0%;
+    position: absolute;
 }
 
 .aboutUs-txt{
     width: 50%;
     height: 20%;
     margin-left: 20%;
-    margin-top: 5%;
+    top: 15%;
     font-family: Helvetica;
     font-size: 24px;
     text-align: right;
+    color: black;
+    text-shadow: 1px 1px white;
+    text-transform: none;
+    position: absolute;
 }
 
 .genderEq{
-    margin-left: 20%;
-    margin-top: -1%;
+    width: 15%;
+    height: 30%;
+    left: 20%;
+    top: 20%;
+    position: absolute;
+    background-color: white;
+    opacity: .8;
 }
 
 .genderEq:hover{
@@ -669,36 +674,122 @@ header:after {
 .aboutUs-txtTwo{
     line-height: 1.5;
     width: 35%;
-    margin-left: 36%;
-    margin-top: -18%;
+    margin-left: 38%;
+    top: 23%;
     font-family: Helvetica;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-transform: none;
+    position: absolute;
 }
 
 .aboutUs-mission{
-    margin-left: 10%;
-    margin-top: 8%;
+    left: 0%;
+    top: 55%;
     font-family: Helvetica;
     font-size: 27px;
     font-weight: bold;
     text-align: left;
+    text-transform: none;
+    color: black;
+    position: absolute;
+}
+
+.aboutUs-missionTwo{
+    left: 55%;
+    top: 60%;
+    font-family: Helvetica;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: none;
+    color: black;
+    position: absolute;
 }
 
 .aboutUs-missionTxt{
     line-height: 1.5;
-    margin-left: 10%;
-    margin-top: 2%;
+    margin-left: 15%;
+    top: 70%;
+    width: 30%;
     font-family: Helvetica;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
+    text-shadow: 1px 1px black;
+    text-transform: none;
+    color: white;
+    position: absolute;
 }
 
 #txt .inblockMission{
     display: inline-block;
     width: 35%;
     margin: 10px 10px;
-    margin-top: 5%;
-    margin-left: 9.2%;
+    top: 65%;
+    left: 9.2%;
     vertical-align: top;
+}
+
+.scrollable {
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#slide1 {
+    background-image: url("../../2.jpg");
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.txt1{
+    font-size: 50px;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+
+.txt2{
+    font-size: 50px;
+    text-align: right;
+    width: 50%;
+    height: 100%;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+
+.filler{
+    font-size: 50px;
+    text-align: right;
+    width: 50%;
+    height: 100%;
+    opacity: 0.0;
+}
+
+#slide2 {
+    background-image: url("../../3.jpg");
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#slide3 {
+    background-image: url("../../1.jpg");
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }

@@ -34,18 +34,20 @@ header, footer {
   align: center;
   width: 70%;
   height: 80%;
+  margin-top:1.5%;
   margin-left: 14%; 
   margin-right: 14%;
 }
 
 .contact .mail{
-  border-right:1px solid gray;
+  margin-top:5%;
   float:left;
   width:40%;
   height:100%;
 }
 
 .contact .git{
+  border-left:1px solid gray;
   float:left;
   width:59%;
 }
@@ -68,6 +70,7 @@ header, footer {
   height: 80%;
   margin-left: 2.5%;
   margin-top: 4%;
+  margin-bottom:4%;
 }
 
 .tail{
@@ -84,6 +87,13 @@ header, footer {
   text-align:center;
 }
 
+.logo{
+  float:center;
+  width:60%;
+  height:60%;
+  border-radius:50%;
+}
+
 image{
   width:25%; 
   height:18%;
@@ -98,25 +108,37 @@ image{
 <body>
 <div class="head">	
 	<div class="round">
-		<h2><br>Welcome</h2>
-		<p><button class="button">Read More</button></p>
+		<h2><br>Who Are We?</h2>
+		<p>Founded in 2018, Open Doors is a team consisting a total of 7 members based in
+		   Betag, La Trinidad. We aim to build a society where your religious beliefs, 
+		   coinciding your lifestyle would not hinder socialization and respect from other residents</p>
+		<p>We believe that religion is still a very important part of people's lives, evident in Betag.
+		   We work collectively with the barangay towards a similar goal to promote peace, respect and just
+		   in the area where such discrimination is voided.</p>
+		<br>
+		<a href="#TEAM OD"><p>MEET THE TEAM</p></a>
 	</div>
 	
 	<div class="round">
-		<h2><br>Who Are We?</h2>
-		<image src="team.jpg" style="float:center;width:70%;height:70%;border-radius:50%">
-		<p>do stuff here</p>
+		<h2><br>Welcome</h2>
+		<image src="logo.png" class="logo">
+		<p><button class="button" onclick="location.href='#contact'">Connect With Us</button></p>
 	</div>
 	
 	<div class="round">
 		<h2><br>Our Vision</h2>
-		<p>Tolerance does not mean <br> tolerating intolerance of others.</p>
+		<p>"Tolerance does not mean <br> tolerating intolerance of others"</p>
+		<p>Creating a barangay community that overcomes separation and differences
+		   due to colliding faiths and beliefs. Envisioning the residents of Betag living 
+		   in a place where there would be little to no discrimination between different 
+		   religions and respecting each others shared humanity.</p>
+		<p>"Accepting others begins with accepting one's self"</p>
 	</div>
 </div>
 
 
 <div class="team">
-	<div>
+	<div id="TEAM OD">
 		<font size="7">THE TEAM</font>
 	</div>
 	
@@ -185,10 +207,9 @@ image{
 </div> 
 
 <div class="tail">
-	<br><br><br>
-	<div class="contact">
+	<br>
+	<div class="contact" id="contact">
 		<div class="mail">
-			<br><br><br><br>
 			</h1>Be informed. Join our mailing list</h1><br><br>
 			<input type="text" name="email" value="Enter email here" class="cleardefault"><br><br>
 			<button class="button">Subscribe</button>
@@ -196,7 +217,7 @@ image{
 		
 		<div class="git">
 			<h1>GET IN TOUCH</h1>
-			<p>km6 Baguio - La Trinidad - Bontoc Rd, La Trinidad, 2601 Benguet<img src="Betag.png" style="width:200px;height:200px;"></p>
+			<p>km6 Baguio - La Trinidad - Bontoc Rd, La Trinidad, 2601 Benguet <br><img src="Betag.png"></p>
 			<p>09474203039<br><br>
 			<button class="button">Contact</button><br><br>
 			<button class="button">Donate</button></p>

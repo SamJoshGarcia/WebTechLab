@@ -642,6 +642,7 @@ footer {
     margin-bottom: 5%;    
     font-size: 120%;
     background-color: cornflowerblue;
+    text-align: left;
 }
 
 .form p {

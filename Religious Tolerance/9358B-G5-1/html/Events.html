@@ -1,0 +1,217 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="..\style\style.css" type="text/css">
+		<link rel="stylesheet" href="..\altstyle\style.css" type="text/css">
+		<link rel="icon" href="logo.ico">
+		<meta charset="UTF-8" name="description" content="Religious Tolerance">  
+ 
+  		<title>Open Doors</title>
+	</head>
+
+	<div id="logo">
+		<img src="../images/logo.png">
+	</div>
+
+<header>
+	<article>
+		 <nav class="dropdown">
+			<a href="..\html\index.html">
+				<button class="dropdown-button">Home
+			</a>       
+        </nav>
+        <nav class="dropdown">
+			<a href="..\html\about.html">
+				<button class="dropdown-button">About  
+			</a>       
+        </nav>
+		
+        <nav class="dropdown">
+			<a href="..\html\about.html#contact">
+            <button class="dropdown-button">Contact Us          
+        </nav>
+        
+        <nav class="dropdown">
+			<a href="..\html\event.html">
+				<button class="dropdown-button">Events             
+			</a>
+	   </nav>
+        
+        <nav class="dropdown">
+		<a href="..\html\news.html">
+            <button class="dropdown-button">News</a>          
+		</a>
+		</nav>
+	</article>
+</header>
+<body>
+<div id="content">
+	<h6>UPCOMING EVENTS</h6>
+<div class="article">
+	<table width="100%" border="5px" bordercolor="black">
+		<tr>
+			<td>EVENT</td>
+			<td>DATE</td>
+		</tr>
+		
+		<tr>
+			<td>Holy Week(Lucky Summer Visitors)</td>
+			<td>April 2018</td>
+		</tr>
+		
+		<tr>
+			<td>UBAS Anniversary</td>
+			<td>June 16, 2018</td>
+		</tr>
+		
+		<tr>
+			<td>Youth Center Program</td>
+			<td>September 2018</td>
+		</tr>
+		
+		
+		
+	</table>
+</div>
+</div>
+</p>
+</body>
+
+
+<div id="content2">
+</br></br>
+<h2>CAPTURING MEMORIES FROM BETAG</h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="../images/events1.jpg" style="width:100%">
+  <div class="text">Strawberry Festival</br>
+  A grand festive in La trinidad, Benguet that showcase their very own product, Strawberry.</br>
+  It became a tradition to celebrate this festive yearly. Stalls, activities and contest are held </br>
+  for about 5 days. Year 2004, they baked a giant strawberr cake that about 1.5 meters high, 2.4 meters</br>
+  long and weighs about 2.5 tons can produce about 16,000 slices. Hence, it was entitled by the Guinness</br> 
+  World Records as largest fruit shortcake in the world. 
+  
+  </div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="../images/cake.jpg" style="width:100%">
+  <div class="text">Largest Fruit Shortcake In The World</br>
+  Copyright © 2018 outoftownblog</div>
+</div>
+
+<div class="mySlides fade">
+<p id="events">
+  <img src="../images/event2.jpg" style="width:100%">
+  <div class="text">ADIVAY Festival
+  It is of the most famous festival in La Trinidad that is being held every month of November</br>
+  ADIVAY is an ibaloi word meaning "coming together and having fun". This is more on a celebration</br>
+  of all tribe in La trinidad wherein they create history, share culture and trade products in different tribe.
+  
+  </div>
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="../images/event3.jpg" style="width:100%">
+  <div class="text">Concert for a Cause</br>
+  This is a very famous and inspiring event in each betag, wherein they organize a concert</br>
+  to help deceased people of betag.</div>
+</div>
+</p>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<div id="content">
+	<h2>Event Description</h2></br></br>
+	<h2>Holy Week(Lucky Summer Visitors)</h2>
+	<p>All religious organization in the entire barangay of betag is invited to join the celebration of hold week</br>
+	wherein a bunch of fun activities regarding holy week will be done and ceremonies. Thus, they're not obliged</br>
+	to come but they are encouraged to participate. </p></br>
+	
+	<h2>UBAS Anniversary</h2>
+	<p>The Ugnayan ng Barangayarangay at Simbahan or also know as UBAS is an organization of all religions in betag.</br>
+		Every year, they conduct an anniversary party for the organization where all member in each religion are</br>
+		invited for a simple event and simple dinner as well.</p>
+		
+	<h2>Youth Center Program</h2>
+	<p>This event is purposely for the youth that promotes leadership and youth development through fun and productive activities, </br>
+		and unique experiences to help the build strong relationships with adults and peers. It will be held on the month of september</br>
+		at the municipal gym</p>
+		
+
+</div>
+
+
+<div id="footer">      
+    <div class="first"> 
+        <p>   
+        Brgy. Betag, La Trinidad, Benguet<br>
+        (074)-309-1001 <br>
+        </p>  
+        <b>betag@gmail.com</b> 
+    </div>
+    
+    <div class="social">
+    <p>Connect With Us</p>
+    
+    <a href="https://facebook.com"><img src="../images/fb.png"  class="socialfa" alt="facebook"></a>
+    <a href="https://twitter.com"><img src="../images/twitter.png"  class="socialtw" alt="twitter"></a>
+    <a href="https://youtube.com"><img src="../images/youtube.png"  class="socialyo" alt="youtube"></a>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>. 

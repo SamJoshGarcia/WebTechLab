@@ -1,12 +1,12 @@
 <html>
-<head>
-<link rel="stylesheet" href="..\style\style.css" type="text/css">
+	<head>
+		<link rel="stylesheet" href="..\style\style.css" type="text/css">
 		<link rel="stylesheet" href="..\altstyle\style.css" type="text/css">
 		<link rel="icon" href="logo.ico">
 		<meta charset="UTF-8" name="description" content="Religious Tolerance">  
  
   		<title>Open Doors</title>
-</head>
+	</head>
 
  <div id="logo">
 		<img src="../images/logo.png">
@@ -14,31 +14,26 @@
 
 <header>
 	<article>
-		 <nav class="dropdown">
-			<a href="..\html\index.html">
-				<button class="dropdown-button">Home</button>
-			</a>       
-        </nav>
         <nav class="dropdown">
 			<a href="..\html\about.html">
-				<button class="dropdown-button">About </button> 
+				<button class="dropdown-button">About</button>  
 			</a>       
         </nav>
 		
 		<nav class="dropdown">
 			<a href="..\html\about.html#contact">
-            <button class="dropdown-button">Contact Us</button></a>           
+            <button class="dropdown-button">Contact Us</button></a>            
         </nav>
         
         <nav class="dropdown">
 			<a href="..\html\Events.html">
-				<button class="dropdown-button">Events </button>            
+				<button class="dropdown-button">Events</button>               
 			</a>
 		</nav>
         
         <nav class="dropdown">
 		<a href="..\html\news.html">
-            <button class="dropdown-button">News </button></a>         
+            <button class="dropdown-button">News</button>   </a>         
 		</nav>
 		
 		<nav class="dropdown">
@@ -48,18 +43,32 @@
 	</article>
 </header>
 			       
-<body>
-<div id="content">
-	<h2>MAP OF BETAG</h2>
-	
-	<div class="article">
-		<img src="../images/Betag.png">
-	</div>
 
-	<a href="..\html\about.html#contact">
-		<button class="dropdown-button">BACK</button>  
-	</a>
-</div>
+<body>
+<form class="form">
+    <h1>Stay Connected!<br></h1> 
+    <h3>Please fill in this form to create an account.</h3>
+    <hr>
+	<label>Full Name:</label><br>
+    <input type="text" placeholder="Enter Full Name" name="NAME" required><br>
+
+    <label>Email:</label><br>
+    <input type="text" placeholder="Enter Your Email Address" name="email" required><br>
+	
+	<label>Address:</label><br>
+    <input type="text" placeholder="Enter Your Address" name="Address" required><br>
+	
+	<label>Contact Number:</label><br>
+    <input type="text" placeholder="Enter Contact Number" name="Contact" required><br>
+	
+    <br><br>
+
+    <div class="stayinformed">
+        <a href="..\html\signup.html" class="register"><button class="button" onclick="location.href='../html/sign-up.html'">Sign Up</button></a>
+    </div>
+
+    <br>
+</form>
 </body>
 
 <div id="footer">  
@@ -80,4 +89,5 @@
     </div>
 
 </div>
+
 </html>

@@ -130,31 +130,6 @@ header:after {
     width: 100%;
 }
 
-#slideofhumanity h1 {
-    font-size: 280%;
-    margin: auto;
-    position: absolute;
-    text-align: center;
-    left: 15%; bottom: 40%; right: 15%; 
-    color: #FFF;
-    background-color: transparent;
-    font-weight: bolder;
-    border: 5px solid black;
-    border-radius: 15px;
-}
-
-#slideofhumanity h1:hover {
-    font-size: 280%;
-    margin: auto;
-    position: absolute;
-    left: 15%; bottom: 40%; right: 15%; 
-    color: #FFF;
-    background-color: yellowgreen;
-    font-weight: bolder;
-    border: 5px solid white;
-    border-radius: 15px;
-}
-
 .middle {
     display: block;
     max-width: 1350%;
@@ -167,6 +142,32 @@ header:after {
     width: 100%;
     text-decoration: none;
 }
+
+.middle h2 {
+    font-size: 280%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    left: 15%; bottom: 40%; right: 15%; 
+    color: #FFF;
+    background-color: transparent;
+    font-weight: bolder;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.middle h2:hover {
+    font-size: 280%;
+    margin: auto;
+    position: absolute;
+    left: 15%; bottom: 40%; right: 15%; 
+    color: #FFF;
+    background-color: yellowgreen;
+    font-weight: bolder;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
 
 #slide img {
     max-width: 100%;
@@ -317,7 +318,6 @@ header:after {
 .thank h1 {
     font-weight: bolder;
     margin: auto;
-    text-decoration: underline;
     color: yellowgreen;
     text-align: center;
     font-size: 40px
@@ -331,6 +331,7 @@ header:after {
     color: cornflowerblue;
     text-align: center;
     font-size: 120%;
+    border: 2px solid darkgoldenrod;
 }    
 
 .foot {
@@ -372,9 +373,11 @@ header:after {
     text-transform: capitalize;
 }
 
-.second b {
-    font-size: 120%;
+.second h3 {
+    font-size: 100%;
     text-transform: lowercase;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .third {
@@ -462,7 +465,7 @@ header:after {
 }
 
 .events p {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -474,9 +477,9 @@ header:after {
 }
 
 .events q {
-    font-size: 150%;
+    display: block;
+    font-size: 100%;
     font-weight: bold;
-    text-align: center;
 }
 
 .parts {
@@ -579,10 +582,15 @@ header:after {
     display: block;
 	margin-left: auto;
     margin-right: auto;
-    text-align: center;
-	font-size: 80%;
+    text-align: justify;
+	font-size: 100%;
 	padding-left: 10%;
     padding-right: 10%;
+}
+
+.about q {
+    font-weight: bold;
+    text-align: center;
 }
 
 .about img {
@@ -698,28 +706,29 @@ header:after {
 
 .stayinformed {
     display: inline;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
     color: #FFF;
     cursor: pointer;
-    padding: 28%;    
 }
 
-.stayinformed button {
-    display: inline-block;
-    box-shadow: 5px 5px darksalmon; 
+.stayinformed a {
+    display: block;
+    text-decoration: none;
+    box-shadow: 5px darksalmon; 
     color: darksalmon;
-    padding: 1%;
-    font-size: 70%;
     text-transform: uppercase;    
     border: none;
     font-weight: bold;
+    font-size: 100%;
+    text-align: center;
 }
 
-.stayinformed button:hover {
-    background-color: darksalmon;
+.stayinformed a:hover {
     color: gray;
-    box-shadow: 5px 5px gray; 
+    box-shadow: 5px gray; 
   }
 
 .meet {
@@ -741,6 +750,7 @@ header:after {
 }
 
 #image .team{
+    background-color: white;
     display: inline-block;
     height: 300px;
     width: 25%;
@@ -836,4 +846,74 @@ header:after {
 	font-size: 120%;
 	padding-left: 10%;
     padding-right: 10%;
+}
+
+.children {
+    display: inline-block;
+    background-color: cornflowerblue;
+    width: 30%;
+    padding-top: 3%;
+	padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #FFF;
+    margin-top: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 5px solid;
+    float: left;
+    opacity: 0.5;
+    text-align: center;
+}
+
+
+.children:hover {
+    opacity: 1;
+    box-shadow: inset 0 0 0 20px darksalmon;
+    background-color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.children img {
+    max-width: 92%;
+    height: auto;
+    width: auto;
+}
+
+.women {
+    display: inline-block;
+    background-color: cornflowerblue;
+    width: 30%;
+    padding-top: 3%;
+	padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #FFF;
+    margin-top: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 5px solid;
+    float: left;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.women:hover {
+    opacity: 1;
+    box-shadow: inset 0 0 0 20px darksalmon;
+    background-color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.women img {
+    max-width: 92%;
+    height: auto;
+    width: auto;
+}
+
+.bottom h1 {
+    font-size: 80%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
 }

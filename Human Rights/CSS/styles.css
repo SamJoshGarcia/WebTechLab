@@ -7,13 +7,17 @@ html {
 #logo {
     margin: 0;
     height: auto;
-    width: auto; 
+    width: auto;
   }
 
 #logo img {
     max-width: 100%;
     height: auto;
-    width: auto;    
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    -webkit-filter: invert(100%); 
+    filter: invert(100%);
 }
 
 body {
@@ -22,12 +26,12 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: cornsilk;
+  background-color: gainsboro;
   color: #FFF;
   margin: 0;
   text-transform: uppercase;
   font-size: 100%;
-  font-family: 'Arial'; 
+  font-family: 'Verdana'; 
 }
 
 header {
@@ -46,8 +50,9 @@ header:after {
     position: relative;
     margin: auto;
     text-align: center;
-    float: right;
     z-index: 2;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .menu a {
@@ -62,7 +67,7 @@ header:after {
 }
 
 .menu button {
-    display: block;
+    display: inline-block;
     padding: 15px;
     color: #FFF;
     text-align: center;
@@ -74,10 +79,11 @@ header:after {
     position: relative;
     display: inline-block;
     text-decoration: none;
+    font-family: 'Verdana';
 }
 
 .dropdown-button {
-    background-color: yellowgreen;
+    background-color: blueviolet;
     color: #FFF;
     font-size: 90%;
     cursor: pointer;
@@ -90,7 +96,7 @@ header:after {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: cornflowerblue;
+    background-color: black;
     min-width: 100%;
 	z-index: 3;
 }
@@ -104,7 +110,8 @@ header:after {
 }
 
 .dropdown-content a:hover {
-    background-color:darksalmon;
+    background-color: slateblue;
+    color: palegreen;
 }
 
 .dropdown:hover .dropdown-content {
@@ -112,7 +119,7 @@ header:after {
 }
 
 .dropdown:hover .dropdown-button {
-    background-color:darkgoldenrod;
+    background-color: blue;
 }
 
 #slideofhumanity {
@@ -155,19 +162,6 @@ header:after {
     border: 5px solid black;
     border-radius: 15px;
 }
-
-.middle h2:hover {
-    font-size: 280%;
-    margin: auto;
-    position: absolute;
-    left: 15%; bottom: 40%; right: 15%; 
-    color: #FFF;
-    background-color: yellowgreen;
-    font-weight: bolder;
-    border: 5px solid white;
-    border-radius: 15px;
-}
-
 
 #slide img {
     max-width: 100%;
@@ -242,25 +236,17 @@ header:after {
 
 .left {
     display: inline-block;
-    background-color: cornflowerblue;
+    background-color: black;
     width: 45%;
     padding-top: 3%;
 	padding-bottom: 3%;
     color: #FFF;
     margin-top: auto;
     margin-left: 3%;
-    border: 5px solid;
+    border: 5px solid deepskyblue;
     float: left;
     opacity: 0.5;
     text-align: center;
-}
-
-
-.left:hover {
-    opacity: 1;
-    box-shadow: inset 0 0 0 20px darksalmon;
-    background-color: cornflowerblue;
-    text-decoration: underline;
 }
 
 .left img {
@@ -271,24 +257,17 @@ header:after {
 
 .right {
     display: inline-block;
-    background-color: cornflowerblue;
+    background-color: black;
     width: 45%;
     padding-top: 3%;
 	padding-bottom: 3%;
     color: #FFF;
     margin-top: auto;
     margin-right: 3%;
-    border: 5px solid;
+    border: 5px solid deepskyblue;
     float: right;
     opacity: 0.5;
     text-align: center;
-}
-
-.right:hover {
-    opacity: 1;
-    box-shadow: inset 0 0 0 20px darksalmon;
-    background-color: cornflowerblue;
-    text-decoration: underline;
 }
 
 .right img {
@@ -362,7 +341,7 @@ header:after {
     padding: 2%;
     border: 3px solid;
     margin-top: 3%;
-    color: darkgoldenrod;
+    color: blue;
     float: left;
     margin-left: 3%;
     margin-right: auto;
@@ -387,7 +366,7 @@ header:after {
     padding: 3%;
     border: 3px solid;
     margin-top: 3%;
-    color: darksalmon;
+    color: blueviolet;
     float: left;
     margin-left: 6%;
     margin-right: 3%;
@@ -402,7 +381,7 @@ header:after {
 .social {
     width: 25%;
     margin-top: 3%;
-    color: yellowgreen;
+    color: darkviolet;
     float: right;
     margin-left: auto;
     margin-right: 3%;

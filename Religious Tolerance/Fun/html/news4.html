@@ -1,54 +1,51 @@
-<html>
-<head>
-<link rel="icon" href="logo.ico">
-<link rel="stylesheet" href="..\css\style.css" type="text/css">
-</head>
-
-<div id="logo">
-		<img src="../images/logo.png">
-	</div>
-
-<header>
-	<article>
-		 <nav class="dropdown">
-			<a href="..\html\index.html">
-				<button class="dropdown-button">Home</button>
-			</a>       
-        </nav>
-        <nav class="dropdown">
-			<a href="..\html\about.html">
-				<button class="dropdown-button">About </button> 
-			</a>       
-        </nav>
-		
-		<nav class="dropdown">
-			<a href="..\html\about.html#contact">
-            <button class="dropdown-button">Contact Us </button> </a>         
-        </nav>
-        
-        <nav class="dropdown">
-			<a href="..\html\Events.html">
-				<button class="dropdown-button">Events </button>            
-			</a>
-		</nav>
-        
-        <nav class="dropdown">
-		<a href="..\html\news.html">
-            <button class="dropdown-button">News</button> </a>       
-		</nav>
-		
-		<nav class="dropdown">
-		<a href="..\html\connect.html">
-            <button class="dropdown-button">Sign-up</button></a>         
-		</nav>
-	</article>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="../css/style.css" type="text/css">
+		<link rel="icon" href="logo.ico">
+		<meta charset="UTF-8">  
+ 
+  		<title>Open Doors</title>
+	</head>
 
 <body>
+	
+	<div id="logo">
+		<img src="../images/logo.png" alt="logo">
+	</div>	
+
+<header> 
+	<div id="article1">
+		<nav class="dropdown">
+			<button class="dropdown-button" onclick="location.href='../html/index.html'">Home</button>      
+        </nav>
+        <nav class="dropdown">
+			<button class="dropdown-button" onclick="location.href='../html/about.html'">About </button>  
+        </nav>
+		
+		<nav class="dropdown">
+            <button class="dropdown-button" onclick="location.href='../html/about.html#contact'">Contact Us </button>        
+        </nav>
+        
+        <nav class="dropdown">
+			<button class="dropdown-button" onclick="location.href='../html/Events.html'">Events </button>            
+		</nav>
+        
+        <nav class="dropdown">
+            <button class="dropdown-button" onclick="location.href='../html/news.html'">News</button>     
+		</nav>
+		
+		<nav class="dropdown">
+            <button class="dropdown-button" onclick="location.href='../html/connect.html'">Sign-up</button>         
+		</nav>
+	</div>
+</header>
+
+<article>
  <div class="background">
-	<div class="article">
+	<div class="article1">
 		<h1>"It's all about mindsets"</h1>
-		<img src="../images/road.jpg" class="newsImage">
+		<img src="../images/road.jpg" class="newsImage" alt="road">
 		<p class="dateA">January 26, 2018</p>
 		<p class="newsArticle">Given the widespread of varying religious background present in this barangay, 
 		it is highly important to advance a “pluralistic mindset with clarity and confidence,” Nestor says. 
@@ -63,7 +60,7 @@
 		
 		<a href="news3.html">
 		<div class="otherNews">
-			<img src="../images/church.jpg" class="otherNewsImage">
+			<img src="../images/church.jpg" class="otherNewsImage" alt="church">
 			<div class="otherNewsDescription">
 				<p><b>Religion: A Big Divider</b><p>
 				<p>This case against Michael proves intolerance in our barangay exists.<br></p>
@@ -73,7 +70,7 @@
 		<br>
 		<a href="news2.html">
 		<div class="otherNews">
-			<img src="../images/betag.jpg" class="otherNewsImage">
+			<img src="../images/betag.jpg" class="otherNewsImage" alt="betag">
 			<div class="otherNewsDescription">
 				<p><b>Betag's Approach Towards Tolerance</b><p>
 				<p>The barangay has created an organization focusing on religious tolerance.<br></p>
@@ -83,7 +80,7 @@
 		<br>
 	</div>
  </div>
-</body>
+</article>
 
 <div id="footer">      
     <div class="first"> 
@@ -101,5 +98,7 @@
     <a href="https://twitter.com"><img src="../images/twitter.png"  class="socialtw" alt="twitter"></a>
     <a href="https://youtube.com"><img src="../images/youtube.png"  class="socialyo" alt="youtube"></a>
     </div>
+
 </div>
+</body>
 </html>

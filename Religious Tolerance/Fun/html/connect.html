@@ -1,51 +1,47 @@
-<html>
-<head>
-<link rel="stylesheet" href="..\css\style.css" type="text/css">
-<link rel="icon" href="logo.ico">
-</head>
-
- <div id="logo">
-		<img src="../images/logo.png">
-	</div>
-
-<header>
-	<article>
-		 <nav class="dropdown">
-			<a href="..\html\index.html">
-				<button class="dropdown-button">Home</button>
-			</a>       
-        </nav>
-        <nav class="dropdown">
-			<a href="..\html\about.html">
-				<button class="dropdown-button">About </button> 
-			</a>       
-        </nav>
-		
-		<nav class="dropdown">
-			<a href="..\html\about.html#contact">
-            <button class="dropdown-button">Contact Us </button> </a>        
-        </nav>
-        
-        <nav class="dropdown">
-			<a href="..\html\Events.html">
-				<button class="dropdown-button">Events </button>            
-			</a>
-		</nav>
-        
-        <nav class="dropdown">
-		<a href="..\html\news.html">
-            <button class="dropdown-button">News</button> </a>       
-		</nav>
-		
-		<nav class="dropdown">
-		<a href="..\html\connect.html">
-            <button class="dropdown-button">Sign-up</button></a>         
-		</nav>
-	</article>
-</header>
-			       
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="../css/style.css" type="text/css">
+		<link rel="icon" href="logo.ico">
+		<meta charset="UTF-8">  
+ 
+  		<title>Open Doors</title>
+	</head>
 
 <body>
+	
+	<div id="logo">
+		<img src="../images/logo.png" alt="logo">
+	</div>	
+
+<header> 
+	<div id="article1">
+		<nav class="dropdown">
+			<button class="dropdown-button" onclick="location.href='../html/index.html'">Home</button>      
+        </nav>
+        <nav class="dropdown">
+			<button class="dropdown-button" onclick="location.href='../html/about.html'">About </button>  
+        </nav>
+		
+		<nav class="dropdown">
+            <button class="dropdown-button" onclick="location.href='../html/about.html#contact'">Contact Us </button>        
+        </nav>
+        
+        <nav class="dropdown">
+			<button class="dropdown-button" onclick="location.href='../html/Events.html'">Events </button>            
+		</nav>
+        
+        <nav class="dropdown">
+            <button class="dropdown-button" onclick="location.href='../html/news.html'">News</button>     
+		</nav>
+		
+		<nav class="dropdown">
+            <button class="dropdown-button" onclick="location.href='../html/connect.html'">Sign-up</button>         
+		</nav>
+	</div>
+</header>
+			       
+<article>
 <form class="form">
     <h1>Stay Connected!<br></h1> 
     <h3>Please fill in this form to create an account.</h3>
@@ -65,14 +61,14 @@
     <br><br>
 
     <div class="stayinformed">
-        <a href="..\html\signup.html" class="register"><button class="button" onclick="location.href='../html/sign-up.html'">Sign Up</button></a>
+        <button class="button" onclick="location.href='../html/sign-up.html'">Sign Up</button>
     </div>
 
     <br>
 </form>
-</body>
+</article>
 
-<div id="footer">  
+<div id="footer">      
     <div class="first"> 
         <p>   
         Brgy. Betag, La Trinidad, Benguet<br>
@@ -91,4 +87,5 @@
 
 </div>
 
+</body>
 </html>

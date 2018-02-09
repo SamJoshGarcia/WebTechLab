@@ -144,7 +144,7 @@ header:after {
 }
 
 .middle h2 {
-    font-size: 280%;
+    font-size: 240%;
     margin: auto;
     position: absolute;
     text-align: center;
@@ -153,26 +153,25 @@ header:after {
     background-color: transparent;
     font-weight: bolder;
     border: 5px solid black;
-    border-radius: 15px;
+    border-radius: 1%;
+    box-shadow: 1px 1px 5px 5px white;
 }
 
 .middle h2:hover {
-    font-size: 280%;
     margin: auto;
     position: absolute;
     left: 15%; bottom: 40%; right: 15%; 
     color: #FFF;
     background-color: yellowgreen;
     font-weight: bolder;
-    border: 5px solid white;
-    border-radius: 15px;
+    border: 5px solid black;
+    border-radius: 1%;
 }
-
 
 #slide img {
     max-width: 100%;
     height: auto;
-    width: auto;    
+    width: auto;
 }
 
 .impact {
@@ -200,9 +199,10 @@ header:after {
 }
 
 .impact-slide {
-	font-weight: bold;
-    font-size: 20px;
-    color: black;
+	font-weight: bolder;
+    font-size: 180%;
+    color: darkgoldenrod;
+    text-transform: none;
 }
 
 .impact-slide p {
@@ -210,9 +210,9 @@ header:after {
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
-	font-size: 120%;
-	padding-left: 10%;
-    padding-right: 10%;
+	font-size: 150%;
+	padding-left: 8%;
+    padding-right: 8%;
 }
 
 .impact img {
@@ -362,12 +362,13 @@ header:after {
     width: 20%;
     padding: 2%;
     border: 3px solid;
-    margin-top: 3%;
+    margin-top: 2.5%;
     color: darkgoldenrod;
     float: left;
     margin-left: 3%;
     margin-right: auto;
     vertical-align: baseline;
+    box-shadow: 1px 1px 5px 5px cornflowerblue;
 }
 
 .second p {
@@ -385,14 +386,16 @@ header:after {
 .third {
     margin: 0 0 0 0;
     width: 28%;
-    padding: 3%;
-    border: 3px solid;
-    margin-top: 3%;
+    padding: 4%;
+    border: 5px solid;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
     color: darksalmon;
     float: left;
     margin-left: 6%;
-    margin-right: 3%;
+    margin-right: 2%;
     vertical-align: baseline;
+    box-shadow: 1px 1px 5px 5px brown;
 }
 
 .third p {
@@ -401,8 +404,9 @@ header:after {
 }
 
 .social {
-    width: 25%;
-    margin-top: 1%;
+    width: 23%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
     color: yellowgreen;
     float: right;
     margin-left: auto;
@@ -420,7 +424,6 @@ header:after {
     width: 15%;
     padding: 2%;
     border-radius: 50%;
-    margin-bottom: 3%;
 }
 
 .socialfa:hover {
@@ -475,27 +478,33 @@ header:after {
 }
 
 .events p {
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-	font-size: 200%;
-	padding-left: 15%;
-    padding-right: 15%;
+	font-size: 220%;
+    padding-right: auto;
     font-weight: bolder;
     text-decoration: underline;
 }
 
 .events q {
     display: block;
-    font-size: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    font-size: 180%;
     font-weight: bold;
+    color: cornflowerblue;
+    text-transform: none;
 }
 
 .parts {
     background-color: cornflowerblue;
     color: #FFF;
-    border: 2px solid #ccc;
+    border: 2px solid;
     text-align: center;
     margin-top: 5%;
     margin-left: auto;
@@ -530,27 +539,33 @@ header:after {
     font-weight: bold;
 }
 
+.parts p {
+    text-transform: none;
+    font-size: 130%;
+    color: black;
+}
+
 .parts h5 {
 	margin: auto;
     text-align: center;
 	font-weight: bold;
-	font-size: 120%;
-	padding-left: 10%;
-    padding-right: 10%;
+	font-size: 145%;
+	padding-left: 5%;
+    padding-right: 5%;
 	display: block;
+    text-transform: capitalize;
 }
 
 .parts input {
-	margin-bottom: 10%;
-	width: 55%;    
+	width: 50%;    
 	display: block;
 	margin: auto;
 	clear: left;
-	border: 3px solid darksalmon;
+	border: 2px solid black;
 }
 
 .parts input:focus {
-	border: 3px solid darkgoldenrod;
+	border: 2px solid darksalmon;
 }
 
 .register {
@@ -597,20 +612,23 @@ header:after {
 	font-size: 100%;
 	padding-left: 10%;
     padding-right: 10%;
+    text-transform: none;
 }
 
 .about q {
     font-weight: bold;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .about img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 75%;
+    max-width: 85%;
     height: auto;
     width: auto;
+    border: 3px solid darkgoldenrod;
 }
 
 .faqs {
@@ -630,6 +648,7 @@ header:after {
 	font-size: 350%;
 	padding-left: 20%;
     padding-right: 20%;
+    text-transform: uppercase;
 }
 
 .faqs p {
@@ -638,6 +657,19 @@ header:after {
     margin-right: auto;
     text-align: center;
 	font-size: 100%;
+    text-transform: none;
+}
+
+.faqs b {
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.faqs q {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: darkgoldenrod;
 }
 
 .form {
@@ -760,37 +792,42 @@ header:after {
 	font-size: 350%;
 }
 
+.team {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
 #image .team{
     background-color: white;
     display: inline-block;
-    height: 300px;
-    width: 25%;
-    margin-top: 5%;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 5%;
+    height: 300%;
+    width: 35%;
     vertical-align: top;
-    border: 3px solid;
+    border: 5px solid;
+    padding: 2%;
 }
 
 #image .team:hover {    
-    border: 7px solid yellowgreen;
+    border: 5px solid yellowgreen;
 }
 
 .team-pos{
 	font-weight: bold;
-    font-size: 18px;
-    margin-top: -40%;
-    margin-bottom: 20%;
-    margin-left: 45%;
+    font-size: 120%;
+    margin-top: -15%;
+    margin-bottom: 8%;
+    margin-left: 48%;
+    margin-right: 8%;
     text-align: center;
     color: black;
 }
 
 .team-desc {
-	font-size: 13px;
-    margin-top: 30%;
-    margin-bottom: 15%;
+	font-size: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
     color: black;
@@ -840,12 +877,12 @@ header:after {
 	margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     text-align: center;
 	font-weight: bold;
 	font-size: 350%;
-	padding-left: 20%;
-    padding-right: 20%;
+	padding-left: 14%;
+    padding-right: 14%;
     text-decoration: underline;
 }
 
@@ -854,35 +891,45 @@ header:after {
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
-	font-size: 120%;
-	padding-left: 10%;
-    padding-right: 10%;
+	font-size: 150%;
+	padding-left: 5%;
+    padding-right: 5%;
+    text-transform: none;
+    color: black;
+    border: 3px solid yellowgreen;
 }
 
 .children {
     display: inline-block;
-    background-color: cornflowerblue;
-    width: 30%;
-    padding-top: 3%;
-	padding-bottom: 3%;
-    padding-left: 3%;
-    padding-right: 3%;
-    color: #FFF;
+    background-color: yellow;
+    width: 35%;
+    padding-top: 2%;
+	padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: darkblue;
     margin-top: auto;
     margin-left: 5%;
-    margin-right: 5%;
-    border: 5px solid;
+    margin-right: 3%;
+    border: 8px solid;
     float: left;
-    opacity: 0.5;
+    opacity: 1;
     text-align: center;
+    border-radius: 2%;
+    text-transform: none;
 }
 
+.children h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
 
 .children:hover {
-    opacity: 1;
-    box-shadow: inset 0 0 0 20px darksalmon;
-    background-color: cornflowerblue;
-    text-decoration: underline;
+    opacity: 0.9;
+    box-shadow: inset 0 0 0 10px red;
+    border-radius: 2%;
 }
 
 .children img {
@@ -893,27 +940,35 @@ header:after {
 
 .women {
     display: inline-block;
-    background-color: cornflowerblue;
-    width: 30%;
-    padding-top: 3%;
-	padding-bottom: 3%;
-    padding-left: 3%;
-    padding-right: 3%;
-    color: #FFF;
+    background-color: darksalmon;
+    width: 35%;
+    padding-top: 2%;
+	padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #000;
     margin-top: auto;
     margin-right: 5%;
-    margin-left: 5%;
-    border: 5px solid;
+    margin-left: 3%;
+    border: 8px solid;
     float: left;
-    opacity: 0.5;
+    opacity: 1;
     text-align: center;
+    border-radius: 2%;
+    text-transform: none;
+}
+
+.women h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .women:hover {
-    opacity: 1;
-    box-shadow: inset 0 0 0 20px darksalmon;
-    background-color: cornflowerblue;
-    text-decoration: underline;
+    opacity: 0.9;
+    box-shadow: inset 0 0 0 10px fuchsia;
+    border-radius: 2%;
 }
 
 .women img {
@@ -923,7 +978,7 @@ header:after {
 }
 
 .bottom h1 {
-    font-size: 80%;
+    font-size: 75%;
     text-align: center;
     font-weight: bolder;
     color: black;

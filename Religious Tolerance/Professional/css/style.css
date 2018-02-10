@@ -134,7 +134,7 @@ header {
   float: left;
   width: 26%;
   height: 30%;
-  margin-left: 4%; 
+  margin-left: 5%; 
   margin-right: 1%;
   margin-bottom: 1%;
   margin-top: 1%;
@@ -402,14 +402,18 @@ table, th, td {
 }
 
 .background {
-	background-image: url("../images/field.jpg");
-	background-size: cover;
-	background-repeat:no-repeat;
 	width: 100%;
 	overflow:auto;
 }
 
-.column {
+.background h1 {
+	text-align: center;
+	color: black;
+	font-family: helvetica;
+}
+
+.background .column {
+  border: 1px solid gray;
   float: left;
   width: 29.9%;
   margin-left: 1%; 
@@ -417,80 +421,83 @@ table, th, td {
   margin-bottom: 2%;
   margin-top: 3%;
   padding: 0 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  background-color: white;
 }
 
-.newsImg{
+.background .newsImg{ 
   margin-top:1%;
   width:100%;
   height:40%;
 }
 
-.date{
+.recommended .date{
     text-align: right;
 	color:gray;
-}
-.article .newsImage{
-	width: 70%;
-	height: auto;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-	margin-left:2%;
+	font-family: verdana;
+    font-size: 0.70em;
 }
 
-.article .newsArticle{
-	margin-left:2%;
-	margin-bottom: 2%;
-	margin-top: 2%;
-	text-align:left;
-}
-
-.otherNews{
-	width:90%;
-	height:27%;
+.recommended .otherNews{
+	float: left;
+	width:47%;
+	overflow: auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 	margin-top:1%
-	margin-left:2%;
 }
 
 .otherNews .otherNewsImage{
-	float:left;
 	width:49%;
-	height:100%;
+	height: 26%;
 }
 
 .otherNews .otherNewsDescription{
 	float:left;
 	width:50%;
-	height:100%;
+	height:26%;
 	text-align:center;
+	font-family: verdana;
+    font-size: 0.75em;
 }
 
-.article-a{
-    text-align:center;
-    float:left;
-	width:65%;
-	height:100%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-	margin-left:3%;
+.background .recommended{
+	width: 100%;
+	background-color:white;
+	text-align:center;
+	border: 1px solid black;
+}
+
+.background .article1{
+	margin-left: 4.5%;
+	margin-right: 4.5%;
+	margin-bottom: 2%;
+    float: center; 
+	text-align:center;
+	width:90%;
 	background-color:white;
 	overflow:auto;
+	border: 1px solid black;
 }
 
-.recommended{
-	float:left;
-	width:28%;
-	height:100%;
+.article1 .newsImage{
+	float: top;
+	width: 40%;
+	height: 40%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-	margin-left:1%;
-	background-color:white;
-	overflow:auto;
-	text-align:center;
 }
 
+.article1 .newsArticle{
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	text-align:left;
+	font-family: verdana;
+    font-size: 0.90em;
+}
 
-.dateA{
+.article1 .dateA{
     text-align: left;
-	margin-left: 2%;
+	margin-left: 30%;
 	color:gray;
+	font-family: verdana;
+    font-size: 0.75em;
 }

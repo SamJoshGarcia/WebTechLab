@@ -144,7 +144,7 @@ header:after {
 }
 
 .middle h2 {
-    font-size: 240%;
+    font-size: 280%;
     margin: auto;
     position: absolute;
     text-align: center;
@@ -153,25 +153,26 @@ header:after {
     background-color: transparent;
     font-weight: bolder;
     border: 5px solid black;
-    border-radius: 1%;
-    box-shadow: 1px 1px 5px 5px white;
+    border-radius: 15px;
 }
 
 .middle h2:hover {
+    font-size: 280%;
     margin: auto;
     position: absolute;
     left: 15%; bottom: 40%; right: 15%; 
     color: #FFF;
     background-color: yellowgreen;
     font-weight: bolder;
-    border: 5px solid black;
-    border-radius: 1%;
+    border: 5px solid white;
+    border-radius: 15px;
 }
+
 
 #slide img {
     max-width: 100%;
     height: auto;
-    width: auto;
+    width: auto;    
 }
 
 .impact {
@@ -199,10 +200,9 @@ header:after {
 }
 
 .impact-slide {
-	font-weight: bolder;
-    font-size: 180%;
-    color: darkgoldenrod;
-    text-transform: none;
+	font-weight: bold;
+    font-size: 20px;
+    color: black;
 }
 
 .impact-slide p {
@@ -210,9 +210,9 @@ header:after {
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
-	font-size: 150%;
-	padding-left: 8%;
-    padding-right: 8%;
+	font-size: 120%;
+	padding-left: 10%;
+    padding-right: 10%;
 }
 
 .impact img {
@@ -250,17 +250,17 @@ header:after {
     margin-top: auto;
     margin-left: 3%;
     border: 5px solid;
-    border-radius: 5%;
     float: left;
-    opacity: 1;
+    opacity: 0.5;
     text-align: center;
 }
 
 
 .left:hover {
-    opacity: 0.7;
-    box-shadow: inset 0 0 0 10px yellowgreen;
+    opacity: 1;
+    box-shadow: inset 0 0 0 20px darksalmon;
     background-color: cornflowerblue;
+    text-decoration: underline;
 }
 
 .left img {
@@ -279,16 +279,16 @@ header:after {
     margin-top: auto;
     margin-right: 3%;
     border: 5px solid;
-    border-radius: 5%;
     float: right;
-    opacity: 1;
+    opacity: 0.5;
     text-align: center;
 }
 
 .right:hover {
-    opacity: 0.7;
-    box-shadow: inset 0 0 0 10px yellowgreen;
+    opacity: 1;
+    box-shadow: inset 0 0 0 20px darksalmon;
     background-color: cornflowerblue;
+    text-decoration: underline;
 }
 
 .right img {
@@ -354,7 +354,6 @@ header:after {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-weight: bolder;
 }
 
 .second {
@@ -362,13 +361,12 @@ header:after {
     width: 20%;
     padding: 2%;
     border: 3px solid;
-    margin-top: 2.5%;
+    margin-top: 3%;
     color: darkgoldenrod;
     float: left;
     margin-left: 3%;
     margin-right: auto;
     vertical-align: baseline;
-    box-shadow: 1px 1px 5px 5px cornflowerblue;
 }
 
 .second p {
@@ -386,16 +384,14 @@ header:after {
 .third {
     margin: 0 0 0 0;
     width: 28%;
-    padding: 4%;
-    border: 5px solid;
-    margin-top: 2.5%;
-    margin-bottom: 5%;
+    padding: 3%;
+    border: 3px solid;
+    margin-top: 3%;
     color: darksalmon;
     float: left;
     margin-left: 6%;
-    margin-right: 2%;
+    margin-right: 3%;
     vertical-align: baseline;
-    box-shadow: 1px 1px 5px 5px brown;
 }
 
 .third p {
@@ -404,9 +400,8 @@ header:after {
 }
 
 .social {
-    width: 23%;
-    margin-top: 2.5%;
-    margin-bottom: 1%;
+    width: 25%;
+    margin-top: 3%;
     color: yellowgreen;
     float: right;
     margin-left: auto;
@@ -414,28 +409,21 @@ header:after {
     vertical-align: baseline;
 }
 
-.social p {
-    font-size: 100%;
-    font-weight: bolder;
-    margin-bottom: 5%;
-}
-
 .social img {
-    width: 15%;
+    width: 12%;
     padding: 2%;
-    border-radius: 50%;
 }
 
 .socialfa:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .socialtw:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .socialyo:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .socialfa {
@@ -478,33 +466,27 @@ header:after {
 }
 
 .events p {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-	font-size: 220%;
-    padding-right: auto;
+	font-size: 200%;
+	padding-left: 15%;
+    padding-right: 15%;
     font-weight: bolder;
     text-decoration: underline;
 }
 
 .events q {
     display: block;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: 3%;
-    margin-right: 3%;
-
-    font-size: 180%;
+    font-size: 100%;
     font-weight: bold;
-    color: cornflowerblue;
-    text-transform: none;
 }
 
 .parts {
     background-color: cornflowerblue;
     color: #FFF;
-    border: 2px solid;
+    border: 2px solid #ccc;
     text-align: center;
     margin-top: 5%;
     margin-left: auto;
@@ -539,33 +521,27 @@ header:after {
     font-weight: bold;
 }
 
-.parts p {
-    text-transform: none;
-    font-size: 130%;
-    color: black;
-}
-
 .parts h5 {
 	margin: auto;
     text-align: center;
 	font-weight: bold;
-	font-size: 145%;
-	padding-left: 5%;
-    padding-right: 5%;
+	font-size: 120%;
+	padding-left: 10%;
+    padding-right: 10%;
 	display: block;
-    text-transform: capitalize;
 }
 
 .parts input {
-	width: 50%;    
+	margin-bottom: 10%;
+	width: 55%;    
 	display: block;
 	margin: auto;
 	clear: left;
-	border: 2px solid black;
+	border: 3px solid darksalmon;
 }
 
 .parts input:focus {
-	border: 2px solid darksalmon;
+	border: 3px solid darkgoldenrod;
 }
 
 .register {
@@ -612,23 +588,20 @@ header:after {
 	font-size: 100%;
 	padding-left: 10%;
     padding-right: 10%;
-    text-transform: none;
 }
 
 .about q {
     font-weight: bold;
     text-align: center;
-    text-transform: capitalize;
 }
 
 .about img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 85%;
+    max-width: 75%;
     height: auto;
     width: auto;
-    border: 3px solid darkgoldenrod;
 }
 
 .faqs {
@@ -648,7 +621,6 @@ header:after {
 	font-size: 350%;
 	padding-left: 20%;
     padding-right: 20%;
-    text-transform: uppercase;
 }
 
 .faqs p {
@@ -657,19 +629,6 @@ header:after {
     margin-right: auto;
     text-align: center;
 	font-size: 100%;
-    text-transform: none;
-}
-
-.faqs b {
-    font-size: 100%;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.faqs q {
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: darkgoldenrod;
 }
 
 .form {
@@ -792,42 +751,37 @@ header:after {
 	font-size: 350%;
 }
 
-.team {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-}
-
 #image .team{
     background-color: white;
     display: inline-block;
-    height: 300%;
-    width: 35%;
+    height: 300px;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
     vertical-align: top;
-    border: 5px solid;
-    padding: 2%;
+    border: 3px solid;
 }
 
 #image .team:hover {    
-    border: 5px solid yellowgreen;
+    border: 7px solid yellowgreen;
 }
 
 .team-pos{
 	font-weight: bold;
-    font-size: 120%;
-    margin-top: -15%;
-    margin-bottom: 8%;
-    margin-left: 48%;
-    margin-right: 8%;
+    font-size: 18px;
+    margin-top: -40%;
+    margin-bottom: 20%;
+    margin-left: 45%;
     text-align: center;
     color: black;
 }
 
 .team-desc {
-	font-size: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+	font-size: 13px;
+    margin-top: 30%;
+    margin-bottom: 15%;
     margin-left: 5%;
     margin-right: 5%;
     color: black;
@@ -877,12 +831,12 @@ header:after {
 	margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
     text-align: center;
 	font-weight: bold;
 	font-size: 350%;
-	padding-left: 14%;
-    padding-right: 14%;
+	padding-left: 20%;
+    padding-right: 20%;
     text-decoration: underline;
 }
 
@@ -891,45 +845,35 @@ header:after {
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
-	font-size: 150%;
-	padding-left: 5%;
-    padding-right: 5%;
-    text-transform: none;
-    color: black;
-    border: 3px solid yellowgreen;
+	font-size: 120%;
+	padding-left: 10%;
+    padding-right: 10%;
 }
 
 .children {
     display: inline-block;
-    background-color: yellow;
-    width: 35%;
-    padding-top: 2%;
-	padding-bottom: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    color: darkblue;
+    background-color: cornflowerblue;
+    width: 30%;
+    padding-top: 3%;
+	padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #FFF;
     margin-top: auto;
     margin-left: 5%;
-    margin-right: 3%;
-    border: 8px solid;
+    margin-right: 5%;
+    border: 5px solid;
     float: left;
-    opacity: 1;
+    opacity: 0.5;
     text-align: center;
-    border-radius: 2%;
-    text-transform: none;
 }
 
-.children h2 {
-    text-decoration: underline;
-    text-transform: uppercase;
-    margin-top: 2%;
-    margin-bottom: 5%;
-}
 
 .children:hover {
-    opacity: 0.9;
-    box-shadow: inset 0 0 0 10px red;
-    border-radius: 2%;
+    opacity: 1;
+    box-shadow: inset 0 0 0 20px darksalmon;
+    background-color: cornflowerblue;
+    text-decoration: underline;
 }
 
 .children img {
@@ -940,35 +884,27 @@ header:after {
 
 .women {
     display: inline-block;
-    background-color: darksalmon;
-    width: 35%;
-    padding-top: 2%;
-	padding-bottom: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    color: #000;
+    background-color: cornflowerblue;
+    width: 30%;
+    padding-top: 3%;
+	padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #FFF;
     margin-top: auto;
     margin-right: 5%;
-    margin-left: 3%;
-    border: 8px solid;
+    margin-left: 5%;
+    border: 5px solid;
     float: left;
-    opacity: 1;
+    opacity: 0.5;
     text-align: center;
-    border-radius: 2%;
-    text-transform: none;
-}
-
-.women h2 {
-    text-decoration: underline;
-    text-transform: uppercase;
-    margin-top: 2%;
-    margin-bottom: 5%;
 }
 
 .women:hover {
-    opacity: 0.9;
-    box-shadow: inset 0 0 0 10px fuchsia;
-    border-radius: 2%;
+    opacity: 1;
+    box-shadow: inset 0 0 0 20px darksalmon;
+    background-color: cornflowerblue;
+    text-decoration: underline;
 }
 
 .women img {
@@ -978,7 +914,7 @@ header:after {
 }
 
 .bottom h1 {
-    font-size: 75%;
+    font-size: 80%;
     text-align: center;
     font-weight: bolder;
     color: black;

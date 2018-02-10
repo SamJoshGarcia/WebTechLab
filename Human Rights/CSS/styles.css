@@ -12,12 +12,10 @@ html {
 
 #logo img {
     max-width: 100%;
-    height: auto;
+    height: 120px;
     width: auto;
-    margin-left: 25%;
+    margin-left: 2%;
     margin-right: 25%;
-    -webkit-filter: invert(100%); 
-    filter: invert(100%);
 }
 
 body {
@@ -26,7 +24,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: gainsboro;
+  background-color:#FFF ;
   color: #FFF;
   margin: 0;
   text-transform: uppercase;
@@ -35,16 +33,16 @@ body {
 }
 
 header {
-    height: auto;
+    height: 50px;
     width: auto;	
-	margin: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #FFF;
+
+
 }
 
-header:after {
-	content: '';
-	display: block;
-	clear: both;
-}
+
 
 .menu {
     display: inline;
@@ -52,8 +50,10 @@ header:after {
     margin: auto;
     text-align: center;
     z-index: 2;
-    margin-left: 5%;
+    margin-left: 8%;
     margin-right: 5%;
+	padding: 5px;
+
 }
 
 .menu a {
@@ -69,11 +69,12 @@ header:after {
 
 .menu button {
     display: inline-block;
-    padding: 10px 50px;
+    padding: 10.2px 50px;
     color: #FFF;
     text-align: center;
     text-transform: Uppercase;
     text-decoration: none;
+	
 }
 
 .dropdown {
@@ -81,28 +82,31 @@ header:after {
     display: inline-block;
     text-decoration: none;
     font-family: 'Verdana';
+	float: left;
+	border: none;
 }
 
 .dropdown-button {
-    background-color: blueviolet;
+    background-color: green;
     color: #FFF;
     font-size: 90%;
     cursor: pointer;
     border: none;
     font-weight: bolder;
     display: inline;
+	
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: mediumblue;
+    background-color: #FFF;
     min-width: 100%;
 	z-index: 3;
 }
 
 .dropdown-content a {
-    color: #FFF;
+    color: gray;
     text-decoration: none;
     font-size: 90%;
     padding: 10px 50px;
@@ -110,8 +114,8 @@ header:after {
 }
 
 .dropdown-content a:hover {
-    background-color: black;
-    color: royalblue;
+    background-color: white;
+    color: green;
 }
 
 .dropdown:hover .dropdown-content {
@@ -119,11 +123,11 @@ header:after {
 }
 
 .dropdown:hover .dropdown-button {
-    background-color: mediumspringgreen;
+    background-color: #067624;
 }
 
 #slideofhumanity {
-    display: block;
+    display: inline-	block;
     position: relative;
     text-align: center;
     margin: 5%;
@@ -138,16 +142,14 @@ header:after {
 }
 
 .middle {
-    display: block;
-    max-width: 1350%;
+    display: inline-block;
+    max-width: none;
     text-align: center;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
+    position: relative;
     height: 100%; 
     width: 100%;
     text-decoration: none;
+	padding: 0px;
 }
 
 .middle h2 {
@@ -161,6 +163,8 @@ header:after {
     font-weight: bolder;
     border: 5px solid black;
     border-radius: 15px;
+	display: inline-block;
+	
 }
 
 #slide img {
@@ -184,7 +188,7 @@ header:after {
 
 .impact h1 {
     display: block;
-    margin-top: 5%;
+    margin-top: 11%;
 	margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
@@ -236,14 +240,14 @@ header:after {
 
 .left {
     display: inline-block;
-    background-color: black;
+    background-color: green;
     width: 45%;
     padding-top: 3%;
 	padding-bottom: 3%;
     color: #FFF;
     margin-top: auto;
     margin-left: 3%;
-    border: 5px solid deepskyblue;
+    border: 5px solid white;
     float: left;
     text-align: center;
 }
@@ -256,14 +260,14 @@ header:after {
 
 .right {
     display: inline-block;
-    background-color: black;
+    background-color: green;
     width: 45%;
     padding-top: 3%;
 	padding-bottom: 3%;
     color: #FFF;
     margin-top: auto;
     margin-right: 3%;
-    border: 5px solid deepskyblue;
+    border: 5px solid white;
     float: right;
     text-align: center;
 }
@@ -282,8 +286,8 @@ header:after {
     font-weight: bold;
     display: inline-block;
     text-transform: uppercase;
-    background-color: black;
-    color: springgreen;
+    background-color: #AAA;
+    color: white;
     text-decoration: none;
 }
 
@@ -323,7 +327,7 @@ header:after {
     position: relative;
     color: black;
     width: 90%;
-    border: 5px solid blueviolet;
+    border: 5px solid green;
     margin-top: 8%;
     padding: 1%;
     margin-left: auto;
@@ -463,8 +467,8 @@ header:after {
 }
 
 .parts {
-    background-color: cornflowerblue;
-    color: #FFF;
+    background-color: #FFF;
+    color: black;
     border: 2px solid #ccc;
     text-align: center;
     margin-top: 5%;
@@ -516,7 +520,7 @@ header:after {
 	display: block;
 	margin: auto;
 	clear: left;
-	border: 3px solid darksalmon;
+	border: 1px solid black;
 }
 
 .parts input:focus {
@@ -529,14 +533,14 @@ header:after {
 	font-weight: bolder;
 	font-size: 120%;
 	text-transform: uppercase;
-    color: darksalmon;
+    color: gray;
     background-color: #FFF;
-    box-shadow: 5px 5px darksalmon; 
+    box-shadow: 2px 2px grAY; 
 }
 
 .register:hover {
-    background-color: darksalmon;
-    color: gray;
+    background-color:NONE;
+    color: BLACK;
     box-shadow: 5px 5px gray; 
 }
 
@@ -548,7 +552,7 @@ header:after {
 
 .about h5 {
     display: block;
-	margin-top: 5%;
+	margin-top: 11%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
@@ -613,15 +617,15 @@ header:after {
 .form {
     padding: 2%;
     font-weight: bold;
-    color: #FFF;
+    color: BLACK;
     width: 60%;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;    
     font-size: 120%;
-    background-color: cornflowerblue;
-    text-align: left;
+    background-color: NONE;
+    text-align:LEFT;
     box-shadow: 10px 10px gray;
 }
 
@@ -679,7 +683,7 @@ header:after {
 .form input {
     width: 50%;
     font-size: 70%;
-    padding-left: 20%;
+    padding-left: 0%;
     padding-right: 20%;
 	margin-left: 3%;
     margin-right: 3%; 
@@ -698,8 +702,8 @@ header:after {
 .stayinformed a {
     display: block;
     text-decoration: none;
-    box-shadow: 5px darksalmon; 
-    color: darksalmon;
+    box-shadow: 2px darksalmon; 
+    color: gray;
     text-transform: uppercase;    
     border: none;
     font-weight: bold;
@@ -721,7 +725,7 @@ header:after {
 
 .meet h5 {
     display: block;
-	margin-top: 5%;
+	margin-top: 11%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
@@ -741,10 +745,6 @@ header:after {
     margin-bottom: 5%;
     vertical-align: top;
     border: 3px solid;
-}
-
-#image .team:hover {    
-    border: 7px solid yellowgreen;
 }
 
 .team-pos{
@@ -791,8 +791,8 @@ header:after {
 }
 
 .donate {
-    background-color: cornflowerblue;
-    color: #FFF;
+    background-color: none;
+    color: black;
     border: 2px solid #ccc;
     text-align: center;
     margin-top: 5%;
@@ -831,7 +831,7 @@ header:after {
 
 .children {
     display: inline-block;
-    background-color: cornflowerblue;
+    background-color: #AAA;
     width: 30%;
     padding-top: 3%;
 	padding-bottom: 3%;
@@ -841,19 +841,13 @@ header:after {
     margin-top: auto;
     margin-left: 5%;
     margin-right: 5%;
-    border: 5px solid;
+    border: 0px solid;
     float: left;
-    opacity: 0.5;
+
     text-align: center;
 }
 
 
-.children:hover {
-    opacity: 1;
-    box-shadow: inset 0 0 0 20px darksalmon;
-    background-color: cornflowerblue;
-    text-decoration: underline;
-}
 
 .children img {
     max-width: 92%;
@@ -863,7 +857,7 @@ header:after {
 
 .women {
     display: inline-block;
-    background-color: cornflowerblue;
+    background-color: #AAA;
     width: 30%;
     padding-top: 3%;
 	padding-bottom: 3%;
@@ -875,15 +869,8 @@ header:after {
     margin-left: 5%;
     border: 5px solid;
     float: left;
-    opacity: 0.5;
-    text-align: center;
-}
 
-.women:hover {
-    opacity: 1;
-    box-shadow: inset 0 0 0 20px darksalmon;
-    background-color: cornflowerblue;
-    text-decoration: underline;
+    text-align: center;
 }
 
 .women img {
@@ -907,15 +894,19 @@ header:after {
     font-weight: bold;
     display: inline-block;
     text-transform: uppercase;
-    box-shadow: 5px 5px darksalmon; 
+    box-shadow: 2px 2px gray; 
     background-color: white;
-    color: darksalmon;
+    color: black;
     margin-left: 40%;
     margin-right: 40%;
 }
 
 .signup:hover {
-    background-color: darksalmon;
-    color: gray;
+    background-color: none;
+    color: black;
     box-shadow: 5px 5px gray; 
+}
+#iefix {
+position:relative;
+z-index:1000;
 }

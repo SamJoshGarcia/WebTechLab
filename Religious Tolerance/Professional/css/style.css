@@ -2,7 +2,7 @@
     margin-left: 5%;
 	height: 10%;
     width: 9%;
-	float: top left;
+	float: left;
 	background-color: transparent;
   }
 
@@ -87,7 +87,7 @@ header {
 	font-family: verdana;
 	font-size: 1.25em;
     display: inline-block;
-	border: 1px faded black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-button:hover{
@@ -101,7 +101,7 @@ header {
 	font-family: verdana;
 	font-size: 1.25em;
     display: inline-block;
-	border: 1px faded black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .stayinformed button:hover{
@@ -138,7 +138,7 @@ header {
 	font-family: verdana;
 	font-size: 1.25em;
     display: inline-block;
-	border: 1px faded black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .round button:hover{
@@ -232,7 +232,6 @@ header {
 }
 
 .logo{
-  float:center;
   width:40%;
   height:40%;
 }
@@ -359,7 +358,6 @@ header {
 	margin-left: 4.5%;
 	margin-right: 4.5%;
 	margin-bottom: 2%;
-    float: center; 
 	text-align:center;
 	width:90%;
 	background-color:white;

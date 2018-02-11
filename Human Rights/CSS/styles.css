@@ -12,7 +12,7 @@ html {
 
 #logo img {
     max-width: 100%;
-    height: 150px;
+    height: 200px;
     width: auto;
     margin-left: 2%;
 }
@@ -32,12 +32,10 @@ body {
 }
 
 header {
+    margin-top: -5%;
+    text-align: center;
     height: auto;
-    width: auto;	
-	margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-	background-color: #FFF;
+    width: 130%;
 }
 
 .menu {
@@ -54,7 +52,7 @@ header {
 .menu a {
     display: block;
     padding: 8px 25px;
-    font-size: 75%;
+    font-size: 80%;
     color: #FFF;
     text-align: center;
     text-transform: Uppercase;
@@ -83,7 +81,7 @@ header {
 .dropdown-button {
     background-color: forestgreen;
     color: #FFF;
-    font-size: 75%;
+    font-size: 80%;
     cursor: pointer;
     border: none;
     font-weight: bolder;
@@ -102,7 +100,7 @@ header {
 .dropdown-content a {
     color: gray;
     text-decoration: none;
-    font-size: 75%;
+    font-size: 90%;
     padding: 8px 25px;
     font-weight: bolder;
 }
@@ -149,13 +147,20 @@ header {
 }
 
 .middle h2 {
-    font-size: 235%;
+    font-size: 255%;
     margin: auto;
     position: absolute;
     text-align: center;
     left: 18%; bottom: 50%; right: 18%; 
     color: #FFF;
-	display: inline-block;	
+	display: inline-block;
+    border: 3px solid greenyellow;
+    font-family: 'Verdana';
+    text-transform: uppercase;
+}
+
+.middle h2:hover {
+    opacity: .7;
 }
 
 #slide img {
@@ -171,7 +176,7 @@ header {
 
 .impact h1 {
     display: block;
-	margin-top: 5%;
+	margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
@@ -322,7 +327,7 @@ header {
     position: relative;
     color: black;
     width: 100%;
-    border: 1px solid indianred;
+    border: 1px solid greenyellow;
     padding: .3%;
     margin-top: 3%;
     margin-left: auto;
@@ -426,7 +431,7 @@ header {
 
 .events h5 {
     display: block;
-	margin-top: 5%;
+	margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
@@ -461,7 +466,7 @@ header {
     background-color: #FFF;
     color: black;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
@@ -472,7 +477,7 @@ header {
 
 .parts h1 {
     display: block;
-    margin-top: 5%;
+    margin-top: 1%;
 	margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
@@ -480,6 +485,7 @@ header {
 	font-weight: bold;
 	font-size: 250%;
     text-decoration: underline;
+    color: gray;
 }
 
 .parts h2 {
@@ -493,28 +499,36 @@ header {
 }
 
 .parts h5 {
-	margin: auto;
+    display: block;
+    font-size: 90%;
     text-align: center;
-	font-size: 100%;
-	padding-left: 10%;
-    padding-right: 10%;
-	display: block;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 0.5%;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.parts p {
+    text-transform: none;
+    font-size: 120%; 
 }
 
 .parts input {
-	margin-bottom: 8%;
-	width: 60%;    
-	display: block;
-	margin: auto;
-	clear: left;
-	border: 1px solid black;
+    display: inline-block;
+    width: 70%;
+    font-size: 80%;
+    padding-left: 1%;
+    padding-right: 10%;
+	margin-left: 2%;
+    margin-right: 2%; 
 }
 
 .register {
 	cursor: pointer;
-    padding: 2%;
+    padding: 1%;
 	font-weight: bolder;
-	font-size: 100%;
+	font-size: 90%;
 	text-transform: uppercase;
     color: white;
     background-color: #AAA;
@@ -528,7 +542,7 @@ header {
 
 .about h5 {
     display: block;
-	margin-top: 5%;
+	margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
@@ -573,10 +587,10 @@ header {
 
 .faqs h5 {
     display: block;
-	margin-top: 5%;
+	margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     text-align: center;
 	font-weight: bold;
 	font-size: 250%;
@@ -597,18 +611,18 @@ header {
     background-color: #FFF;
     color: black;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    width: 50%;
-    height: 50%;
-    padding: 2%;
+    width: 80%;
+    height: 80%;
+    padding: 1%;
 }
 
 .form h1 {
     display: block;
-    margin-top: 5%;
+    margin-top: 1%;
 	margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
@@ -616,6 +630,7 @@ header {
 	font-weight: bold;
 	font-size: 250%;
     text-decoration: underline;
+    color: gray;
 }
 
 .form h2 {
@@ -640,30 +655,27 @@ header {
 .form h3 {
     display: block;
     font-size: 80%;
-    margin-top: 2%;
 	margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2%;
     text-align: center;
 }
 
 .form label {
     display: block;
-    width: 50%;
     font-size: 90%;
-    margin: auto;
-    padding-right: 20%;
-	margin-left: 5%;
-    margin-right: 5%; 
+    text-align: left;
+    margin-left: 3%;
+    font-weight: bold;
 }
 
 .form input {
-    width: 75%;
-    font-size: 70%;
-    padding-left: 2%;
-    padding-right: 20%;
-	margin-left: 3%;
-    margin-right: 3%; 
+    display: inline-block;
+    width: 70%;
+    font-size: 80%;
+    padding-left: 1%;
+    padding-right: 10%;
+	margin-left: 2%;
+    margin-right: 2%; 
 }
 
 .meet {
@@ -674,7 +686,7 @@ header {
 
 .meet h5 {
     display: block;
-	margin-top: 5%;
+	margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
@@ -731,7 +743,7 @@ header {
 
 .blogs h5 {
     display: block;
-	margin-top: 5%;
+	margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
@@ -745,7 +757,7 @@ header {
     background-color: #FFF;
     color: black;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
@@ -756,7 +768,7 @@ header {
 
 .donate h1 {
     display: block;
-    margin-top: 5%;
+    margin-top: 3%;
 	margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
@@ -764,7 +776,9 @@ header {
 	font-weight: bold;
 	font-size: 250%;
     text-decoration: underline;
+    color: gray;
 }
+
 .donate p {
     display: block;
 	margin-left: auto;
@@ -831,19 +845,23 @@ header {
 }
 
 .bottom h1 {
-    font-size: 65%;
+    font-size: 60%;
     text-align: center;
     color: dimgray;
-    border: 1px solid indianred;
+    border: 1px solid greenyellow;
     margin-top: auto;
     padding: 1%;
 }
 
+.stayinformed {
+    margin-top: 3%;
+}
+
 .signup {
 	cursor: pointer;
-    padding: 2%;
+    padding: 1%;
 	font-weight: bolder;
-	font-size: 95%;
+	font-size: 85%;
 	text-transform: uppercase;
     color: white;
     background-color: #AAA;

@@ -492,7 +492,7 @@ div.article1 {
 }
 
 div#footer {
-    width: auto;
+    width: 100%;
     background-color: black;
     text-align: center;
 	float:left;
@@ -569,7 +569,18 @@ div#content2{
 	text-align:center;	
 	font-family: verdana;
 }
-
+.slideshow-container{
+	margin-left: 14.5%;
+	margin-right: 14.5%;
+	margin-bottom: 2%;
+    background-color: white;
+	color:black;
+	overflow:auto;
+	width: 70%;
+	border: 1px solid black; 
+	font-family: verdana;
+	 
+}
 
 div#content2 h6 {
 	text-align: center;

@@ -182,7 +182,7 @@ header:after {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    color: black;
+    color: yellowgreen;
     background-color: transparent;
     text-decoration: none;
 }
@@ -216,13 +216,13 @@ header:after {
 }
 
 .impact img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     width: auto;    
 }
 
 .news {
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 45%;
     margin-left: auto;
     margin-right: auto;
@@ -308,6 +308,7 @@ header:after {
     box-shadow: 5px 5px darksalmon; 
     background-color: white;
     color: darksalmon;
+    text-decoration: none;
 }
 
 .submit:hover {
@@ -348,7 +349,7 @@ header:after {
     position: relative;
     color: black;
     width: 90%;
-    border: 5px solid black;
+    border: 7px solid;
     margin-top: 8%;
     padding: 1%;
     margin-left: auto;
@@ -366,7 +367,7 @@ header:after {
     color: darkgoldenrod;
     float: left;
     margin-left: 3%;
-    margin-right: auto;
+    margin-right: 6%;
     vertical-align: baseline;
     box-shadow: 1px 1px 5px 5px cornflowerblue;
 }
@@ -392,19 +393,22 @@ header:after {
     margin-bottom: 5%;
     color: darksalmon;
     float: left;
-    margin-left: 6%;
+    margin-left: 2%;
     margin-right: 2%;
     vertical-align: baseline;
     box-shadow: 1px 1px 5px 5px brown;
 }
 
 .third p {
-    font-size: 100%;
     font-weight: bolder;
 }
 
+.third strong {
+    font-size: 120%;    
+}
+
 .social {
-    width: 23%;
+    width: 21%;
     margin-top: 2.5%;
     margin-bottom: 1%;
     color: yellowgreen;
@@ -422,20 +426,22 @@ header:after {
 
 .social img {
     width: 15%;
-    padding: 2%;
+    padding: 1%;
     border-radius: 50%;
+    margin-bottom: 5%;
+
 }
 
 .socialfa:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .socialtw:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .socialyo:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .socialfa {
@@ -460,7 +466,7 @@ header:after {
 
 .events {
     display: inline;
-    color: black;
+    color: yellowgreen;
     text-align: center;
 }
 
@@ -485,7 +491,7 @@ header:after {
 	font-size: 220%;
     padding-right: auto;
     font-weight: bolder;
-    text-decoration: underline;
+    color: darkgoldenrod
 }
 
 .events q {
@@ -495,7 +501,7 @@ header:after {
     margin-left: 3%;
     margin-right: 3%;
 
-    font-size: 180%;
+    font-size: 160%;
     font-weight: bold;
     color: cornflowerblue;
     text-transform: none;
@@ -510,10 +516,9 @@ header:after {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    width: 50%;
-    height: 50%;
-    padding: 5%;
-    box-shadow: 10px 10px gray; 
+    width: 65%;
+    padding: 3%;
+    box-shadow: 15px 15px lightpink; 
 }
 
 .parts h1 {
@@ -532,9 +537,9 @@ header:after {
 	margin: auto;
     text-align: center;
 	font-weight: bold;
-	font-size: 250%;
-	padding-left: 12%;
-    padding-right: 12%;
+	font-size: 230%;
+	padding-left: 10%;
+    padding-right: 10%;
 	display: block;
     font-weight: bold;
 }
@@ -542,7 +547,9 @@ header:after {
 .parts p {
     text-transform: none;
     font-size: 130%;
-    color: black;
+    border: 3px solid;
+    background-color: #FFF;
+    color: darksalmon;
 }
 
 .parts h5 {
@@ -587,7 +594,7 @@ header:after {
 
 .about {
     display: inline;
-    color: black;
+    color: yellowgreen;
     text-align: center;
 }
 
@@ -633,8 +640,12 @@ header:after {
 
 .faqs {
     display: inline;
-    color: black;
+    color: yellowgreen;
     text-align: center;
+}
+
+.faqs p {
+    color: black;
 }
 
 .faqs h5 {
@@ -673,7 +684,7 @@ header:after {
 }
 
 .form {
-    padding: 2%;
+    padding: 3%;
     font-weight: bold;
     color: #FFF;
     width: 60%;
@@ -710,7 +721,7 @@ header:after {
 .form h2 {
     margin-bottom: 5%;
     text-align: center;
-	font-size: 250%;
+	font-size: 230%;
 	padding-left: 12%;
     padding-right: 12%;
 	display: block;
@@ -778,7 +789,7 @@ header:after {
     padding: 0 0 0 0;
     display: inline;
     text-align: center;
-    color: black;
+    color: yellowgreen;
 }
 
 .meet h5 {
@@ -800,28 +811,28 @@ header:after {
 }
 
 #image .team{
-    background-color: white;
+    background-color: transparent;
     display: inline-block;
     height: 300%;
     width: 35%;
     vertical-align: top;
-    border: 5px solid;
+    border: 5px solid white;
     padding: 2%;
 }
 
 #image .team:hover {    
-    border: 5px solid yellowgreen;
+    border: 5px solid greenyellow;
 }
 
-.team-pos{
+.team-pos {
 	font-weight: bold;
-    font-size: 120%;
-    margin-top: -15%;
-    margin-bottom: 8%;
+    font-size: 135%;
+    margin-top: -12%;
+    margin-bottom: 7%;
     margin-left: 48%;
     margin-right: 8%;
     text-align: center;
-    color: black;
+    color: darksalmon;
 }
 
 .team-desc {
@@ -843,7 +854,7 @@ header:after {
     padding: 0 0 0 0;
     display: inline;
     text-align: center;
-    color: black;
+    color: yellowgreen;
 }
 
 .blogs h5 {
@@ -851,7 +862,7 @@ header:after {
 	margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     text-align: center;
 	font-weight: bold;
 	font-size: 350%;
@@ -867,9 +878,8 @@ header:after {
     margin-right: auto;
     margin-bottom: 5%;
     width: 50%;
-    height: 50%;
-    padding: 5%;
-    box-shadow: 10px 10px gray;
+    padding: 3%;
+    box-shadow: 10px 10px lightpink;
 }
 
 .donate h1 { 
@@ -891,12 +901,13 @@ header:after {
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
-	font-size: 150%;
-	padding-left: 5%;
-    padding-right: 5%;
+	font-size: 170%;
+	padding-left: 3%;
+    padding-right: 3%;
     text-transform: none;
-    color: black;
-    border: 3px solid yellowgreen;
+    color: white;
+    border: 3px solid; 
+    padding: 5%;
 }
 
 .children {
@@ -911,7 +922,7 @@ header:after {
     margin-top: auto;
     margin-left: 5%;
     margin-right: 3%;
-    border: 8px solid;
+    border: 8px solid red;
     float: left;
     opacity: 1;
     text-align: center;
@@ -920,7 +931,6 @@ header:after {
 }
 
 .children h2 {
-    text-decoration: underline;
     text-transform: uppercase;
     margin-top: 2%;
     margin-bottom: 5%;
@@ -928,7 +938,7 @@ header:after {
 
 .children:hover {
     opacity: 0.9;
-    box-shadow: inset 0 0 0 10px red;
+    box-shadow: inset 0 0 0 10px white;
     border-radius: 2%;
 }
 
@@ -946,11 +956,11 @@ header:after {
 	padding-bottom: 2%;
     padding-left: 2%;
     padding-right: 2%;
-    color: #000;
+    color: #FFF;
     margin-top: auto;
     margin-right: 5%;
     margin-left: 3%;
-    border: 8px solid;
+    border: 8px solid  indianred;
     float: left;
     opacity: 1;
     text-align: center;
@@ -959,7 +969,6 @@ header:after {
 }
 
 .women h2 {
-    text-decoration: underline;
     text-transform: uppercase;
     margin-top: 2%;
     margin-bottom: 5%;
@@ -967,7 +976,7 @@ header:after {
 
 .women:hover {
     opacity: 0.9;
-    box-shadow: inset 0 0 0 10px fuchsia;
+    box-shadow: inset 0 0 0 10px white;
     border-radius: 2%;
 }
 
@@ -977,10 +986,16 @@ header:after {
     width: auto;
 }
 
-.bottom h1 {
-    font-size: 75%;
+.bottom {
     text-align: center;
     font-weight: bolder;
+    margin-right: 1%;
+    margin-bottom: 5%;
+}
+
+.bottom h1 {
+    text-align: center;
+    font-size: 90%;
     color: black;
 }
 

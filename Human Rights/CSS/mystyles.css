@@ -117,7 +117,7 @@ header:after {
 
 .dropdown:hover .dropdown-button {
     background-color:darkgoldenrod;
-    border: 5px solid darkgoldenrod;
+    border: 3px solid darkgoldenrod;
 }
 
 #slideofhumanity {
@@ -161,7 +161,7 @@ header:after {
     font-weight: bolder;
     border: 5px solid black;
     border-radius: 3%;
-    box-shadow: 1px 1px 5px 5px white;
+    box-shadow: 5px 5px white;
 }
 
 .middle h2:hover {
@@ -171,8 +171,9 @@ header:after {
     color: #FFF;
     background-color: yellowgreen;
     font-weight: bolder;
-    border: 7px solid black;
+    border: 5px solid black;
     border-radius: 3%;
+    box-shadow: 5px 5px white;
 }
 
 #slide img {
@@ -348,10 +349,6 @@ header:after {
     font-size: 90%;
 }
 
-.thank h1: hover {
-    color: darksalmon;
-}
-
 .foot {
     text-align: center;
     margin-left: auto;
@@ -365,13 +362,14 @@ header:after {
     position: relative;
     color: black;
     width: 90%;
-    border: 7px solid;
+    border: 5px solid;
     margin-top: 8%;
     padding: 1%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-weight: bolder;
+    box-shadow: 3px 3px greenyellow;
 }
 
 .second {
@@ -385,7 +383,7 @@ header:after {
     margin-left: 3%;
     margin-right: 6%;
     vertical-align: baseline;
-    box-shadow: 1px 1px 5px 5px cornflowerblue;
+    box-shadow: 3px 3px cornflowerblue;
 }
 
 .second p {
@@ -412,7 +410,7 @@ header:after {
     margin-left: 2%;
     margin-right: 2%;
     vertical-align: baseline;
-    box-shadow: 0px 5px 0px 5px brown;
+    box-shadow: 3px 3px brown;
 }
 
 .third p {
@@ -445,7 +443,6 @@ header:after {
     padding: 1%;
     border-radius: 50%;
     margin-bottom: 5%;
-
 }
 
 .socialfa:hover {
@@ -525,6 +522,7 @@ header:after {
     background-color: cornflowerblue;
     color: #FFF;
     border: 2px solid;
+    border-radius: 2%;
     text-align: center;
     margin-top: 10%;
     margin-left: auto;
@@ -632,8 +630,8 @@ header:after {
     margin-right: auto;
     text-align: justify;
 	font-size: 130%;
-	padding-left: 7%;
-    padding-right: 7%;
+	padding-left: 3%;
+    padding-right: 3%;
     text-transform: none;
     color: saddlebrown;
 }
@@ -646,22 +644,19 @@ header:after {
 
 .about img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 85%;
+    margin-left: 3%;
+    margin-right: 3%;
+    max-width: 55%;
     height: auto;
     width: auto;
     border: 3px solid darkgoldenrod;
+    float: right;
 }
 
 .faqs {
     display: inline;
     color: yellowgreen;
     text-align: center;
-}
-
-.faqs p {
-    color: black;
 }
 
 .faqs h5 {
@@ -685,6 +680,7 @@ header:after {
     text-align: center;
 	font-size: 100%;
     text-transform: none;
+    color: brown;
 }
 
 .faqs b {
@@ -697,12 +693,15 @@ header:after {
     text-transform: uppercase;
     font-weight: bolder;
     color: darkgoldenrod;
+    text-decoration: underline;
 }
 
 .form {
     padding: 3%;
     font-weight: bold;
     color: #FFF;
+    border: 2px solid;
+    border-radius: 2%;
     width: 60%;
     margin-top: 10%;
     margin-left: auto;
@@ -887,13 +886,14 @@ header:after {
 .donate {
     background-color: cornflowerblue;
     color: #FFF;
-    border: 2px solid #ccc;
+    border: 2px solid;
+    border-radius: 2%;
     text-align: center;
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    width: 50%;
+    width: 70%;
     padding: 3%;
     box-shadow: 10px 10px lightpink;
 }
@@ -929,16 +929,17 @@ header:after {
 .children {
     display: inline-block;
     background-color: yellow;
-    width: 35%;
+    width: 70%;
     padding-top: 2%;
 	padding-bottom: 2%;
     padding-left: 2%;
     padding-right: 2%;
-    color: darkblue;
+    color: mediumblue;
     margin-top: auto;
-    margin-left: 5%;
-    margin-right: 3%;
-    border: 8px solid red;
+    margin-bottom: 2%;
+    margin-left: 12%;
+    margin-right: 5%;
+    border: 7px solid;
     float: left;
     opacity: 1;
     text-align: center;
@@ -954,7 +955,7 @@ header:after {
 
 .children:hover {
     opacity: 0.8;
-    box-shadow: inset 0 0 0 10px white;
+    box-shadow: inset 0 0 0 5px white;
     border-radius: 2%;
 }
 
@@ -967,17 +968,17 @@ header:after {
 .women {
     display: inline-block;
     background-color: darksalmon;
-    width: 35%;
+    width: 70%;
     padding-top: 2%;
 	padding-bottom: 2%;
     padding-left: 2%;
     padding-right: 2%;
     color: #FFF;
-    margin-top: auto;
+    margin-top: 2%;
+    margin-bottom: auto;
     margin-right: 5%;
-    margin-left: 3%;
+    margin-left: 12%;
     border: 8px solid  indianred;
-    float: left;
     opacity: 1;
     text-align: center;
     border-radius: 2%;
@@ -992,7 +993,7 @@ header:after {
 
 .women:hover {
     opacity: 0.8;
-    box-shadow: inset 0 0 0 10px white;
+    box-shadow: inset 0 0 0 5px white;
     border-radius: 2%;
 }
 
@@ -1011,13 +1012,14 @@ header:after {
 
 .bottom h1 {
     text-align: center;
-    font-size: 90%;
+    font-size: 85%;
     color: black;
 }
 
 .signup {
     padding: 1%;
     font-size: 100%;
+    display: block;
     cursor: pointer;
     border: none;
     font-weight: bold;
@@ -1025,6 +1027,8 @@ header:after {
     box-shadow: 3px 3px darksalmon; 
     background-color: white;
     color: darksalmon;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .signup:hover {

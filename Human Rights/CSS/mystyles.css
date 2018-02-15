@@ -9,26 +9,26 @@ html {
     margin: 0;
     height: auto;
     width: auto; 
-  }
+}
 
 #logo img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     width: auto;    
 }
 
 body {
-  height: auto;
-  width: auto;  
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: cornsilk;
-  color: #FFF;
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 100%;
-  font-family: 'Arial'; 
+    height: auto;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: cornsilk;
+    color: #FFF;
+    margin: 0em;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: 'Arial'; 
 }
 
 header {
@@ -41,6 +41,7 @@ header:after {
 	content: '';
 	display: block;
 	clear: both;
+    position: fixed;
 }
 
 .menu {
@@ -49,6 +50,7 @@ header:after {
     text-align: center;
     float: right;
     z-index: 2;
+    margin-right: 2%;
 }
 
 .menu a {
@@ -75,6 +77,7 @@ header:after {
     position: relative;
     display: inline-block;
     text-decoration: none;
+    margin: .2em;
 }
 
 .dropdown-button {
@@ -85,8 +88,7 @@ header:after {
     border: none;
     font-weight: bolder;
     display: inline-block;
-	margin: 1px;
-    border: 2px solid cornflowerblue;
+    border: 1.5px solid cornflowerblue;
 }
 
 .dropdown-content {
@@ -158,7 +160,7 @@ header:after {
     background-color: transparent;
     font-weight: bolder;
     border: 5px solid black;
-    border-radius: 1%;
+    border-radius: 3%;
     box-shadow: 1px 1px 5px 5px white;
 }
 
@@ -169,8 +171,8 @@ header:after {
     color: #FFF;
     background-color: yellowgreen;
     font-weight: bolder;
-    border: 5px solid black;
-    border-radius: 1%;
+    border: 7px solid black;
+    border-radius: 3%;
 }
 
 #slide img {
@@ -312,7 +314,7 @@ header:after {
     font-weight: bold;
     display: inline-block;
     text-transform: uppercase;
-    box-shadow: 5px 5px darksalmon; 
+    box-shadow: 3px 3px darksalmon; 
     background-color: white;
     color: darksalmon;
     text-decoration: none;
@@ -321,15 +323,17 @@ header:after {
 .submit:hover {
     background-color: darksalmon;
     color: gray;
-    box-shadow: 5px 5px gray; 
+    box-shadow: 3px 3px gray; 
 }
 
 .thank h1 {
     font-weight: bolder;
     margin: auto;
-    color: yellowgreen;
+    color: brown;
     text-align: center;
-    font-size: 300%;
+    font-size: 250%;
+    border: 3px solid greenyellow;
+    padding: 1%;
 }
 
 .thank h2 {
@@ -337,8 +341,16 @@ header:after {
     text-decoration: none;
     color: cornflowerblue;
     text-align: center;
-    font-size: 130%;
-}    
+}   
+
+.thank a {
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.thank h1: hover {
+    color: darksalmon;
+}
 
 .foot {
     text-align: center;
@@ -514,13 +526,13 @@ header:after {
     color: #FFF;
     border: 2px solid;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    width: 65%;
+    width: 45%;
     padding: 3%;
-    box-shadow: 15px 15px lightpink; 
+    box-shadow: 10px 10px lightpink; 
 }
 
 .parts h1 {
@@ -531,8 +543,8 @@ header:after {
     margin-bottom: 5%;
     text-align: center;
 	font-weight: bold;
-	font-size: 350%;
-    text-decoration: underline;
+	font-size: 320%;
+    text-decoration: none;
 }
 
 .parts h2 {
@@ -585,14 +597,14 @@ header:after {
 	text-transform: uppercase;
     color: darksalmon;
     background-color: #FFF;
-    box-shadow: 5px 5px darksalmon; 
+    box-shadow: 3px 3px darksalmon; 
     text-decoration: none;
 }
 
 .register:hover {
     background-color: darksalmon;
     color: gray;
-    box-shadow: 5px 5px gray; 
+    box-shadow: 3px 3px gray; 
 }
 
 .about {
@@ -692,14 +704,14 @@ header:after {
     font-weight: bold;
     color: #FFF;
     width: 60%;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;    
     font-size: 120%;
     background-color: cornflowerblue;
     text-align: left;
-    box-shadow: 10px 10px gray;
+    box-shadow: 10px 10px lightpink;
 }
 
 .form p {
@@ -718,8 +730,8 @@ header:after {
     margin-bottom: 5%;
     text-align: center;
 	font-weight: bold;
-	font-size: 350%;
-    text-decoration: underline;
+	font-size: 320%;
+    text-decoration: none;
 }
 
 .form h2 {
@@ -791,7 +803,7 @@ header:after {
 
 .meet {
     padding: 0 0 0 0;
-    display: inline;
+    display: block;
     text-align: center;
     color: yellowgreen;
 }
@@ -837,7 +849,6 @@ header:after {
     margin-right: 8%;
     text-align: center;
     color: darksalmon;
-    border: 3px solid darkgoldenrod;
 }
 
 .team-desc {
@@ -878,7 +889,7 @@ header:after {
     color: #FFF;
     border: 2px solid #ccc;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
@@ -895,10 +906,10 @@ header:after {
     margin-bottom: 1%;
     text-align: center;
 	font-weight: bold;
-	font-size: 350%;
+	font-size: 320%;
 	padding-left: 14%;
     padding-right: 14%;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .donate p {
@@ -1010,17 +1021,14 @@ header:after {
     cursor: pointer;
     border: none;
     font-weight: bold;
-    display: inline-block;
     text-transform: uppercase;
-    box-shadow: 5px 5px darksalmon; 
+    box-shadow: 3px 3px darksalmon; 
     background-color: white;
     color: darksalmon;
-    margin-left: 40%;
-    margin-right: 40%;
 }
 
 .signup:hover {
     background-color: darksalmon;
     color: gray;
-    box-shadow: 5px 5px gray; 
+    box-shadow: 3px 3px gray; 
 }

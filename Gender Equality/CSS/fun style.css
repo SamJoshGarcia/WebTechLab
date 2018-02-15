@@ -899,7 +899,7 @@ form{
 }
 
 .filler{
-    font-size: 50px;
+    font-size: 65px;
     text-align: right;
     width: 50%;
     height: 100%;
@@ -966,13 +966,18 @@ h1.PrOrder{
 }
 
 h1.prHead{
+    background-color: yellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-size: 45px;
     font-family: Helvetica;
     text-transform: none;
-    color: black;
+    color: #007984;
     margin-left: 10%;
     margin-top: 5%;
     position: relative;
+    text-shadow: 1px 1px black;
 }
 
 .prHead:hover{
@@ -1015,6 +1020,8 @@ p.prBody{
 
 #gad-slide1 {
     background-image: url("../images/GADPic.jpg");
+    border-top: 3px solid #007984;
+    border-bottom: 3px solid #007984;
     z-index: -1;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1025,6 +1032,8 @@ p.prBody{
 
 #psa-slide1 {
     background-image: url("../images/PSAStat.png");
+    border-top: 3px solid #007984;
+    border-bottom: 3px solid #007984;
     z-index: -1;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1035,6 +1044,8 @@ p.prBody{
 
 #psa-slide2 {
     background-image: url("../images/PSAPic2.jpg");
+    border-top: 3px solid #007984;
+    border-bottom: 3px solid #007984;
     z-index: -1;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1064,6 +1075,8 @@ p.faqAns{
 }
 
 #strawberry-slide1 {
+    border-top: 3px solid #007984;
+    border-bottom: 3px solid #007984;
     background-image: url("../images/Strawberry.jpg");
     z-index: -1;
     background-attachment: fixed;

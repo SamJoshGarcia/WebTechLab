@@ -16,8 +16,7 @@
     object-fit: contain;
 }
 
-body {
-	
+body {	
 	height: auto;
 	width: auto;  
 	background-position: center center;
@@ -31,6 +30,9 @@ body {
     background-attachment:fixed;
 }
 
+body {
+    opacity: 0.5;
+}
 header {
     margin-top: 5%;
 	margin-bottom: 3%;

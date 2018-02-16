@@ -978,12 +978,12 @@ h1.prHead{
     margin-top: 5%;
     position: relative;
     text-shadow: 1px 1px black;
-    -webkit-animation-name: entrance;
-    animation-name: entrance;
-    animation-duration: 2s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    animation-duration: 1.5s;
 }
 
-@-webkit-keyframes entrance {
+@-webkit-keyframes entranceFade {
     from {
         opacity: 0;
     }
@@ -993,7 +993,7 @@ h1.prHead{
     }
 }
 
-@keyframes entrance {
+@keyframes entranceFade {
     from {
         opacity: 0;
     }
@@ -1001,6 +1001,68 @@ h1.prHead{
     to {
         opacity: 1;
     }
+}
+
+@keyframes bounce {
+     0% {
+        transform: translateY(0%);
+        transform:  scaleY(0.65);
+    }
+    20%{
+        transform: translateY(-100%);
+        transform:  scaleY(1.2);
+    }
+    40%{
+        transform: translateY(0%);
+        transform:  scaleY(0.8);
+        transform:  scaleX(1.1);
+    }
+    60%{
+        transform: translateY(0%);
+        transform:  scaleY(1.1);
+        transform:  scaleX(1);
+    }   
+    80%{
+        transform: translateY(0%);
+        transform:  scaleY(0.8);
+        transform:  scaleX(1);
+    }               
+    100%{
+        transform: translateY(0%);
+        transform:  scaleY(1);
+        transform:  scaleX(1);
+    }    
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: translateY(0%);
+        transform:  scaleY(0.65);
+    }
+    20%{
+        transform: translateY(-90%);
+        transform:  scaleY(1.2);
+    }
+    40%{
+        transform: translateY(0%);
+        transform:  scaleY(0.8);
+        transform:  scaleX(1.1);
+    }
+    60%{
+        transform: translateY(5%);
+        transform:  scaleY(1.1);
+        transform:  scaleX(1);
+    }   
+    80%{
+        transform: translateY(0%);
+        transform:  scaleY(0.8);
+        transform:  scaleX(1);
+    }               
+    100%{
+        transform: translateY(0%);
+        transform:  scaleY(1);
+        transform:  scaleX(1);
+    }        
 }
 
 .prHead:hover{
@@ -1015,8 +1077,8 @@ a.prBy{
     margin-left: 10%;
     margin-top: 5%;
     position: relative;
-    -webkit-animation-name: entrance;
-    animation-name: entrance;
+    -webkit-animation-name: entranceFade;
+    animation-name: entranceFade;
     animation-duration: 2s;
 }
 
@@ -1032,8 +1094,8 @@ a.prBy{
     background-size: cover;
     position: relative;
     margin-top: 2%;
-    -webkit-animation-name: entrance;
-    animation-name: entrance;
+    -webkit-animation-name: entranceFade;
+    animation-name: entranceFade;
     animation-duration: 2s;
 }
 
@@ -1045,8 +1107,8 @@ p.prBody{
     margin-left: 25%;
     text-align: left;
     line-height: 1.5;
-    -webkit-animation-name: entrance;
-    animation-name: entrance;
+    -webkit-animation-name: entranceFade;
+    animation-name: entranceFade;
     animation-duration: 4s;
 }
 
@@ -1060,8 +1122,8 @@ p.prBody{
     background-size: cover;
     position: relative;
     margin-top: 2%;
-    -webkit-animation-name: entrance;
-    animation-name: entrance;
+    -webkit-animation-name: entranceFade;
+    animation-name: entranceFade;
     animation-duration: 2s;
 }
 
@@ -1075,8 +1137,8 @@ p.prBody{
     background-size: cover;
     position: relative;
     margin-top: 2%;
-    -webkit-animation-name: entrance;
-    animation-name: entrance;
+    -webkit-animation-name: entranceFade;
+    animation-name: entranceFade;
     animation-duration: 2s;
 }
 
@@ -1090,8 +1152,8 @@ p.prBody{
     background-size: cover;
     position: relative;
     margin-top: 2%;
-    -webkit-animation-name: entrance;
-    animation-name: entrance;
+    -webkit-animation-name: entranceFade;
+    animation-name: entranceFade;
     animation-duration: 2s;
 }
 
@@ -1125,7 +1187,7 @@ p.faqAns{
     background-size: cover;
     position: relative;
     margin-top: 2%;
-    -webkit-animation-name: entrance;
-    animation-name: entrance;
+    -webkit-animation-name: entranceFade;
+    animation-name: entranceFade;
     animation-duration: 2s;
 }

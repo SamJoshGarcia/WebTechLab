@@ -236,11 +236,11 @@ image{
 	overflow:auto;
 }
 
-.background h1 {
-	margin-left: 17%; 
-	text-align: left;
+.background h1 { 
+	text-align: center;
 	color: black;
 	font-family: helvetica;
+	font-size: 2.25em;
 }
 
 .background .column {
@@ -281,8 +281,8 @@ image{
   font-family: verdana;
   font-size: 2.75em;
   font-style: italic;
-  color: black;
-  
+  color: white;
+
 }
 
 .form h1{
@@ -361,7 +361,7 @@ image{
 
 .article1 .newsImage{
 	float: top;
-	width: 40%;
+	width: 60%;
 	height: 40%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 	margin-left:2%;
@@ -395,6 +395,7 @@ image{
 }
 
 .recommended h1{
+	margin-left: 2%;
 	text-align: left;
 	color: black;
 	font-family: impact;
@@ -402,8 +403,9 @@ image{
 
 .otherNews .otherNewsImage{
 	float:left;
-	width:49%;
-	height: 26%;
+	margin-top: 8%;
+	margin-left: 1%;
+	width:48%;
 }
 
 .otherNews .otherNewsDescription{
@@ -412,15 +414,15 @@ image{
 	height:26%;
 	text-align:center;
 	font-family: verdana;
-    font-size: 0.90em;
+    font-size: 0.80em;
 }
 
 .background .article1{
     text-align:center;
     float:left;
-	width:65%;
+	width:60%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-	margin-left:3%;
+	margin-left:1%;
 	background-color:white;
 	overflow:auto;
 }
@@ -433,6 +435,7 @@ image{
 	background-color:white;
 	overflow:auto;
 	text-align:center;
+	margin-top: 1.7%;
 }
 
 a {

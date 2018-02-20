@@ -1,0 +1,11 @@
+	Good day Sir, we just want to inform you that our group will have a common image
+folder for both the altstyle and style instead of having image folders inside each style folder.
+Our reason is that we plan to use the same images but apply different styles. Also, we found it
+a bit problematic in our part to refer to specific images especially that we must put images on 
+specific folders when we'll only be using the same images. We hope that you'll understand our
+reasons. Thank you for the consideration and God bless po sir.
+
+PS - We renamed our style.css in the style folder into altstyle.css so that upon viewing the index.html,
+     you can already see the fun style of the website without altering the names of the styles. Above that,
+     we have changed nothing from the first style.css aka the professional theme. The names of each css can be
+     interchanged in order to either change the theme from professional to fun and vice-versa.

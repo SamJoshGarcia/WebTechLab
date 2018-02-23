@@ -1,0 +1,1043 @@
+html {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border: 5px solid yellowgreen;
+}
+
+#logo {
+    margin: 0;
+    height: auto;
+    width: auto; 
+}
+
+#logo img {
+    max-width: 90%;
+    height: auto;
+    width: auto;    
+}
+
+body {
+    height: auto;
+    width: auto;
+    background-image: url("../Images/DSCF6371.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: cornsilk;
+    color: #FFF;
+    margin: 0em;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: 'Arial'; 
+}
+
+header {
+    height: auto;
+    width: auto;	
+	margin: auto;
+}
+
+header:after {
+	content: '';
+	display: block;
+	clear: both;
+    position: fixed;
+}
+
+.menu {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    float: right;
+    z-index: 2;
+    margin-right: 2%;
+}
+
+.menu a {
+    display: block;
+    padding: 15px;
+    font-size: 90%;
+    color: #FFF;
+    text-align: center;
+    text-transform: Uppercase;
+    text-decoration: none;
+    margin: auto;
+}
+
+.menu button {
+    display: block;
+    padding: 15px;
+    color: #FFF;
+    text-align: center;
+    text-transform: Uppercase;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    margin: .2em;
+}
+
+.dropdown-button {
+    background-color: yellowgreen;
+    color: #FFF;
+    font-size: 90%;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+    display: inline-block;
+    border: 1.5px solid cornflowerblue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: cornflowerblue;
+    min-width: 100%;
+	z-index: 3;
+}
+
+.dropdown-content a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 90%;
+    padding: 15px 20px;
+    font-weight: bolder;
+}
+
+.dropdown-content a:hover {
+    background-color:darksalmon;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-button {
+    background-color:darkgoldenrod;
+    border: 3px solid darkgoldenrod;
+}
+
+#slideofhumanity {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 5%;
+    color: #FFF;
+    background-color: transparent;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    height: auto; 
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+.middle {
+    display: block;
+    max-width: 1350%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    height: 100%; 
+    width: 100%;
+    text-decoration: none;
+}
+
+.middle h2 {
+    font-size: 240%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    left: 15%; bottom: 40%; right: 15%; 
+    color: #FFF;
+    background-color: transparent;
+    font-weight: bolder;
+    border: 5px solid black;
+    border-radius: 3%;
+    box-shadow: 5px 5px white;
+}
+
+.middle h2:hover {
+    margin: auto;
+    position: absolute;
+    left: 15%; bottom: 40%; right: 15%; 
+    color: #FFF;
+    background-color: yellowgreen;
+    font-weight: bolder;
+    border: 5px solid black;
+    border-radius: 3%;
+    box-shadow: 5px 5px white;
+}
+
+#slide img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.impact {
+    padding: 0 0 0 0;
+    display: block;
+    text-align: center;
+    color: #FFF;
+}
+
+.impact h1 {
+    display: block;
+    margin-top: 5%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+}
+
+.impact-slide {
+	font-weight: bolder;
+    font-size: 180%;
+    color: darkgoldenrod;
+    text-transform: none;
+}
+
+.impact-slide p {
+    text-align: center;
+	font-size: 118%;
+    color: #FFF;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-weight: bolder;
+}
+
+.impact img {
+    max-width: 65%;
+    margin-left: 1%;
+    height: auto;
+    width: auto;    
+    float: left;
+    border: 3px solid darkgoldenrod;
+}
+
+.news {
+    margin-top: 1%;
+    margin-bottom: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.news a {
+    margin-top: 5%;
+    margin-bottom: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.left {
+    display: inline-block;
+    background-color: cornflowerblue;
+    width: 45%;
+    padding-top: 3%;
+	padding-bottom: 3%;
+    color: #FFF;
+    margin-top: auto;
+    margin-left: 3%;
+    border: 5px solid;
+    border-radius: 5%;
+    float: left;
+    opacity: 1;
+    text-align: center;
+}
+
+
+.left:hover {
+    opacity: 0.8;
+    box-shadow: inset 0 0 0 10px yellowgreen;
+    background-color: cornflowerblue;
+}
+
+.left img {
+    max-width: 92%;
+    height: auto;
+    width: auto;
+}
+
+.right {
+    display: inline-block;
+    background-color: cornflowerblue;
+    width: 45%;
+    padding-top: 3%;
+	padding-bottom: 3%;
+    color: #FFF;
+    margin-top: auto;
+    margin-right: 3%;
+    border: 5px solid;
+    border-radius: 5%;
+    float: right;
+    opacity: 1;
+    text-align: center;
+}
+
+.right:hover {
+    opacity: 0.8;
+    box-shadow: inset 0 0 0 10px yellowgreen;
+    background-color: cornflowerblue;
+}
+
+.right img {
+    max-width: 92%;
+    height: auto;
+    width: auto;
+}
+
+.submit {
+    padding: 5px 10px;
+    font-size: 100%;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    box-shadow: 3px 3px darksalmon; 
+    background-color: white;
+    color: darksalmon;
+    text-decoration: none;
+}
+
+.submit:hover {
+    background-color: darksalmon;
+    color: gray;
+    box-shadow: 3px 3px gray; 
+}
+
+.thank h1 {
+    font-weight: bolder;
+    margin: auto;
+    color: brown;
+    text-align: center;
+    font-size: 250%;
+    border: 3px solid greenyellow;
+    padding: 1%;
+}
+
+.thank h2 {
+    font-weight: bold;
+    text-decoration: none;
+    color: cornflowerblue;
+    text-align: center;
+}   
+
+.thank a {
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.foot {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.first {
+    display: inline-block;
+    position: relative;
+    color: black;
+    width: 90%;
+    border: 4px solid;
+    border-radius: 4%;
+    margin-top: 5%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: 3px 3px greenyellow;
+}
+
+.second {
+    margin: 0 0 0 0;
+    width: 20%;
+    padding: 2%;
+    border: 3px solid;
+    margin-top: 2.5%;
+    color: darkgoldenrod;
+    float: left;
+    margin-left: 3%;
+    margin-right: 6%;
+    vertical-align: baseline;
+    box-shadow: 3px 3px cornflowerblue;
+}
+
+.second p {
+    font-size: 100%;
+    text-transform: capitalize;
+    color: black;
+}
+
+.second h3 {
+    font-size: 100%;
+    text-transform: lowercase;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: underline;
+}
+
+.third {
+    margin: 0 0 0 0;
+    width: 28%;
+    padding: 4%;
+    border: 5px solid;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    color: #FFF;
+    border: solid darksalmon;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    vertical-align: baseline;
+    box-shadow: 3px 3px brown;
+}
+
+.third p {
+    font-weight: bolder;
+}
+
+.third strong {
+    font-size: 120%;    
+}
+
+.social {
+    width: 21%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    color: yellowgreen;
+    float: right;
+    margin-left: auto;
+    margin-right: 3%;
+    vertical-align: baseline;
+}
+
+.social p {
+    font-size: 100%;
+    font-weight: bolder;
+    margin-bottom: 5%;
+    color: #FFF;
+}
+
+.social img {
+    width: 15%;
+    padding: 1%;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.socialfa:hover {
+    opacity: 0.5;
+}
+
+.socialtw:hover {
+    opacity: 0.5;
+}
+
+.socialyo:hover {
+    opacity: 0.5;
+}
+
+.socialfa {
+    background: #3B5998;
+}
+
+.socialtw {
+    background: #55ACEE;
+}
+
+.socialyo {
+    background: red;
+}
+
+.foot p {
+    text-align: center;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.events {
+    display: inline;
+    color: yellowgreen;
+    text-align: center;
+}
+
+.events h5 {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+	padding-left: 20%;
+    padding-right: 20%;
+}
+
+.events p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	font-size: 220%;
+    font-weight: bolder;
+    color: cornflowerblue;
+}
+
+.events q {
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 160%;
+    font-weight: bold;
+    color: saddlebrown;
+    text-transform: none;
+}
+
+.parts {
+    background-color: cornflowerblue;
+    color: #FFF;
+    border: 2px solid;
+    border-radius: 2%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 45%;
+    padding: 3%;
+    box-shadow: 10px 10px lightpink; 
+}
+
+.parts h1 {
+    display: block;
+    margin-top: 5%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 320%;
+    text-decoration: none;
+}
+
+.parts h2 {
+	margin: auto;
+    text-align: center;
+	font-weight: bold;
+	font-size: 230%;
+	padding-left: 10%;
+    padding-right: 10%;
+	display: block;
+    font-weight: bold;
+}
+
+.parts p {
+    text-transform: none;
+    font-size: 130%;
+    border: 3px solid;
+    background-color: #FFF;
+    color: darksalmon;
+}
+
+.parts h5 {
+	margin: auto;
+    text-align: center;
+	font-weight: bold;
+	font-size: 145%;
+	padding-left: 5%;
+    padding-right: 5%;
+	display: block;
+    text-transform: capitalize;
+}
+
+.parts input {
+	width: 50%;    
+	display: block;
+	margin: auto;
+	clear: left;
+	border: 2px solid white;
+}
+
+.parts input:focus {
+	border: 2px solid darksalmon;
+}
+
+.register {
+	cursor: pointer;
+    padding: 1%;
+	font-weight: bolder;
+	font-size: 120%;
+	text-transform: uppercase;
+    color: darksalmon;
+    background-color: #FFF;
+    box-shadow: 3px 3px darksalmon; 
+    text-decoration: none;
+}
+
+.register:hover {
+    background-color: darksalmon;
+    color: gray;
+    box-shadow: 3px 3px gray; 
+}
+
+.about {
+    padding: 0 0 0 0;
+    display: block;
+    text-align: center;
+    color: #FFF;
+}
+
+.about h5 {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+	padding-left: 20%;
+    padding-right: 20%;
+}
+
+.about p {
+    display: block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+	font-size: 130%;
+	padding-left: 3%;
+    padding-right: 3%;
+    text-transform: none;
+    color: saddlebrown;
+}
+
+.about q {
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about img {
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+    max-width: 55%;
+    height: auto;
+    width: auto;
+    border: 3px solid darkgoldenrod;
+    float: right;
+}
+
+.faqs {
+    padding: 0 0 0 0;
+    display: block;
+    text-align: center;
+    color: #FFF;
+
+}
+
+.faqs h5 {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+	padding-left: 20%;
+    padding-right: 20%;
+    text-transform: uppercase;
+}
+
+.faqs p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	font-size: 100%;
+    text-transform: none;
+    color: brown;
+    border: 5px solid cornflowerblue;
+    padding: 2%;
+}
+
+.faqs b {
+    font-size: 100%;
+    text-transform: none;
+    font-weight: bold;
+}
+
+.faqs q {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+.form {
+    padding: 3%;
+    font-weight: bold;
+    color: #FFF;
+    border: 2px solid;
+    border-radius: 2%;
+    width: 60%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;    
+    font-size: 120%;
+    background-color: cornflowerblue;
+    text-align: left;
+    box-shadow: 10px 10px lightpink;
+}
+
+.form p {
+    display: block;
+    font-size: 70%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form h1 {
+    display: block;
+    margin-top: 5%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 320%;
+    text-decoration: none;
+}
+
+.form h2 {
+    margin-bottom: 5%;
+    text-align: center;
+	font-size: 230%;
+	padding-left: 12%;
+    padding-right: 12%;
+	display: block;
+    font-weight: bold;
+}
+
+.form h3 {
+    display: block;
+    font-size: 100%;
+    margin-top: 5%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    width: 70%;
+    font-size: 85%;
+    margin: auto;
+    padding-right: 20%;
+	margin-left: 5%;
+    margin-right: 5%; 
+
+}
+
+.form input {
+    width: 50%;
+    font-size: 70%;
+    padding-left: 20%;
+    padding-right: 20%;
+	margin-left: 3%;
+    margin-right: 3%; 
+}
+
+.stayinformed {
+    display: inline;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.stayinformed a {
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 5px 5px darksalmon; 
+    color: darksalmon;
+    text-transform: uppercase;    
+    border: none;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+}
+
+.stayinformed a:hover {
+    color: gray;
+    box-shadow: 5px 5px gray; 
+  }
+
+.meet {
+    padding: 0 0 0 0;
+    display: block;
+    text-align: center;
+    color: #FFF;
+}
+
+.meet h5 {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+}
+
+.team {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#image .team{
+    background-color: transparent;
+    display: inline-block;
+    height: 300%;
+    width: 35%;
+    vertical-align: top;
+    border: 5px solid transparent;
+    padding: 2%;
+}
+
+#image .team:hover {    
+    border: 5px solid greenyellow;
+}
+
+.team-pos {
+	font-weight: bold;
+    font-size: 135%;
+    margin-top: -12%;
+    margin-bottom: 7%;
+    margin-left: 48%;
+    margin-right: 8%;
+    text-align: center;
+    color: darksalmon;
+}
+
+.team-desc {
+	font-size: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    text-transform: lowercase;
+}
+
+.team-desc b {
+    text-transform: capitalize;
+    font-weight: bolder;
+} 
+
+.blogs {
+    padding: 0 0 0 0;
+    display: block;
+    text-align: center;
+    color: #FFF;
+}
+
+.blogs h5 {
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 350%;
+}
+
+.donate {
+    background-color: cornflowerblue;
+    color: #FFF;
+    border: 2px solid;
+    border-radius: 2%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 70%;
+    padding: 3%;
+    box-shadow: 10px 10px lightpink;
+}
+
+.donate h1 { 
+    display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    text-align: center;
+	font-weight: bold;
+	font-size: 320%;
+	padding-left: 14%;
+    padding-right: 14%;
+    text-decoration: none;
+}
+
+.donate p {
+    display: block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	font-size: 170%;
+	padding-left: 3%;
+    padding-right: 3%;
+    text-transform: none;
+    color: white;
+    border: 3px solid; 
+    padding: 5%;
+}
+
+.children {
+    display: inline-block;
+    background-color: yellow;
+    width: 70%;
+    padding-top: 2%;
+	padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: mediumblue;
+    margin-top: auto;
+    margin-bottom: 2%;
+    margin-left: 12%;
+    margin-right: 12%;
+    border: 7px solid;
+    float: left;
+    opacity: 1;
+    text-align: center;
+    border-radius: 2%;
+    text-transform: none;
+}
+
+.children h2 {
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.children:hover {
+    opacity: 0.8;
+    box-shadow: inset 0 0 0 5px white;
+    border-radius: 2%;
+}
+
+.children img {
+    max-width: 92%;
+    height: auto;
+    width: auto;
+}
+
+.women {
+    display: inline-block;
+    background-color: darksalmon;
+    width: 70%;
+    padding-top: 2%;
+	padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #FFF;
+    margin-top: 2%;
+    margin-bottom: auto;
+    margin-right: 12%;
+    margin-left: 12%;
+    border: 8px solid  indianred;
+    opacity: 1;
+    text-align: center;
+    border-radius: 2%;
+    text-transform: none;
+}
+
+.women h2 {
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.women:hover {
+    opacity: 0.8;
+    box-shadow: inset 0 0 0 5px white;
+    border-radius: 2%;
+}
+
+.women img {
+    max-width: 92%;
+    height: auto;
+    width: auto;
+}
+
+.bottom {
+    text-align: center;
+    font-weight: bolder;
+    margin-right: 1%;
+    margin-bottom: 5%;
+}
+
+.bottom h1 {
+    text-align: center;
+    font-size: 85%;
+    color: black;
+}
+
+.signup {
+    padding: 1%;
+    font-size: 100%;
+    display: block;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 3px 3px darksalmon; 
+    background-color: white;
+    color: darksalmon;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.signup:hover {
+    background-color: darksalmon;
+    color: gray;
+    box-shadow: 3px 3px gray; 
+}
